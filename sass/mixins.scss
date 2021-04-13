@@ -1,0 +1,64 @@
+// ----------------------------------------------------------
+// MIXINS
+// ----------------------------------------------------------
+@mixin box-shadow($shadows...){
+    box-shadow: $shadows;
+	-moz-box-shadow: $shadows;
+	-webkit-box-shadow: $shadows;
+	-o-box-shadow: $shadows;
+}
+
+@mixin border-radius($radius...){
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+
+@mixin gradient($gradient...){
+	background-image: -moz-linear-gradient($gradient);
+	background-image: -webkit-linear-gradient($gradient);
+	background-image: -ms-linear-gradient($gradient);
+}
+
+@mixin transition($transition...){
+	transition: $transition;
+	-moz-transition: $transition;
+	-webkit-transition: $transition;
+	-o-transition: $transition;
+	-ms-transition: $transition;
+}
+
+@mixin transform($transform...){
+	-webkit-transform: $transform;
+	-moz-transform: $transform;
+	-o-transform: $transform;
+	transform: $transform;
+}
+
+@mixin scale($size){
+	-moz-transform: scale($size);
+    -webkit-transform: scale($size);
+  	transform: scale($size);
+}
+
+@mixin image-fit($position, $width, $height, $radius...){
+	object-fit: cover;
+	object-position: $position;
+	@if ($width) {
+		width: $width;
+	}
+	@if ($height) {
+		height: $height;
+	} @else {
+		height: $width;
+	}
+	@if ($radius) {
+		@include border-radius($radius);
+	}
+}
+
+
+@mixin grayscale($value){
+	filter: grayscale($value);
+	-webkit-filter: grayscale($value);
+}

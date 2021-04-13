@@ -1,0 +1,43 @@
+// ----------------------------------------------------------
+// PARENT VARIABLES
+// ----------------------------------------------------------
+// Border Radius
+%sm-rounded{
+    @include border-radius(5px);
+}
+%md-rounded{
+    @include border-radius(10px);
+}
+%lg-rounded{
+    @include border-radius(15px);
+}
+%md-rounded-top{
+	@include border-radius(10px 10px 0 0);
+}
+%md-rounded-bottom{
+	@include border-radius(0 0 10px 10px);
+}
+%md-rounded-right{
+	@include border-radius(0 10px 10px 0);
+}
+%rounded{
+    @include border-radius(50px);
+}
+%circle{
+    @include border-radius(100%);
+}
+
+// Transition
+%fade-transition{
+    @include transition(0.3s all ease);
+}
+
+%no-text-decoration{
+    a{
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,168 @@
+@media (max-width: 991px){
+	.navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
+	   padding: 0 15px;
+	   .btn-menu{
+		   display: none;
+	   }
+	}
+}
+
+@media (max-width: 768px){
+	$base-font-size : 11px;
+	.sm-left{
+		text-align: left!important;
+	}
+	body{
+		font-size: $base-font-size;
+	}
+	a.nav-link{
+		margin-left: 0!important;
+	}
+	.profile{
+		margin-top: 50px;
+		bottom: 0;
+	}
+	.socials{
+		top: 0px!important;
+		ul{
+			float: right;
+			li{
+				display: inline-table;
+			}
+		}
+	}
+	#content-wrapper{
+		#content{
+			margin-top: 50px;
+		}
+	}
+}
+
+@media (max-width: 575px){
+	.xs-left{
+		text-align: left!important;
+	}
+	.xs-none{
+		display: none;
+	}
+	nav{
+		margin-top: -1px;
+	}
+	.content-bg{
+		top: 550px!important;
+	}
+	.title{
+		.description{
+			text-align: left;
+		}
+	}
+	.card{
+		.card-content{
+			padding: 20px 30px;
+		}
+	}
+	.profile-photo{
+		text-align: center;
+		img{
+			width: 300px!important;
+			max-width: 100%;
+			margin-bottom: 25px;
+		}
+	}
+
+	.content-icon{
+		width: 30px;
+		height: 30px;
+		margin-top: 0px;
+		line-height: 30px;
+		&:after{
+			top: 30px;
+			left: 28px;
+		}
+		img{
+			width: 12px;
+		}
+	}
+
+	.skills-table{
+		width: 100%;
+		&.table-right{
+			margin-top: 15px;
+			float: none;
+		}
+	}
+
+}
+
+@media (max-width: 480px){
+	$base-font-size : 10px;
+	.xxs-none{
+		display: none!important;
+	}
+	h2{
+		font-size: $base-font-size + 10;
+	}
+	h3{
+		font-size: $base-font-size + 8;
+	}
+	h4{
+		font-size: $base-font-size + 6;
+	}
+	h5{
+		font-size: $base-font-size + 4;
+	}
+	h6{
+		font-size: $base-font-size + 2;
+	}
+	.content-category{
+		margin-bottom: 10px!important;
+		&:last-child{
+			margin-bottom: 20px!important;
+		}
+	}
+}
+
+@media (max-width: 400px){
+	.content-icon{
+		width: 20px;
+		height: 20px;
+		margin-top: 10px;
+		line-height: 20px;
+		&:after{
+			top: 30px;
+			left: 24px;
+		}
+		img{
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 376px){
+	.content-icon{
+		display: none;
+	}
+	.xxs-none{
+		display: none;
+	}
+	.xxs-full{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.xxs-clear-left{
+		margin-left: 0;
+	}
+	.table-experiences-date{
+		// margin-top: 8px;
+		margin-right: -8px;
+		td{
+			h5{
+				font-size: 10px;
+			}
+			&.date-divider{
+				padding: 5px 3px 0;
+			}
+		}
+	}
+
+}
