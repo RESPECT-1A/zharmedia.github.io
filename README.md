@@ -13,3 +13,6 @@ Thanks for all contributor. Especially for the lecturer who has guided us for ma
 - [Syelvie Ira Ratna Mulia](https://github.com/Raxoria) - 201524031
 - [Ryrie Ceisha Ramadhanty](https://github.com/ryriecshaa) - 201524026
 - [Hasanah](https://github.com/Hasanah24) - 201524010
+
+### Final Result
+https://respect-1a.github.io/zharmedia.github.io/
