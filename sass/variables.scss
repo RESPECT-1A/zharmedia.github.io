@@ -1,0 +1,38 @@
+// ----------------------------------------------------------
+// VARIABLES
+// ----------------------------------------------------------
+
+// Color Variables
+$white		: #FFFFFF;
+$light		: #F2F4F6;
+$softblue 	: #97A0B2;
+$blue 		: #678CEB;
+$medblue	: #6285DF;
+$darkblue	: #4A6196;
+$gray		: #97a0b2;
+$dark		: #303849;
+
+// Font Family
+$font-family-1 	: 'Work Sans';
+$font-family-2	: 'Montserrat';
+
+// ----------------------------------------------------------
+// BASE SETTINGS
+// ----------------------------------------------------------
+$base-font-size		: 13px;
+$base-font-family	: $font-family-1;
+$base-font-heading	: 30px;
+$base-color			: $gray;
+$base-bg-color		: $light;
+$base-line-height	: 1.6em;
+$base-spacing		: 0.01em;
+$base-padding		: 30px;
+
+// ----------------------------------------------------------
+// TYPOGRAPHY
+// ----------------------------------------------------------
+// Font Size
+$font-size-small : $base-font-size - 2;
+
+// Text Letter Spacing
+$spacing-sm : 0.05em;

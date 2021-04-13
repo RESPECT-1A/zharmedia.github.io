@@ -1,0 +1,276 @@
+img{
+	max-width: 100%;
+}
+
+// Opacity
+.soft{
+	opacity: .6;
+	&-md{
+		opacity: .8;
+	}
+}
+
+.valign{
+	&-top{
+		td{
+			vertical-align: top;
+		}
+	}
+	&-center{
+		td{
+			vertical-align: center;
+		}
+	}
+}
+
+// Background Color
+.bg{
+	&-white{
+		background-color: $white!important;
+	}
+}
+
+// Progress Bar
+.skill-bar{
+	background-color: transparentize($blue, .8);
+	margin-top: 3px;
+	height: 3px;
+	.skill-bar-color{
+		height: 3px;
+		position: relative;
+		background-color: $blue;
+		&:after{
+			content: '';
+			top: -3px;
+			right: 0;
+			width: 9px;
+			height: 9px;
+			display: block;
+			background-color: $blue;
+			position: absolute;
+			@extend %circle;
+		}
+	}
+}
+
+// Card
+.card{
+	padding: 50px 50px 35px;
+	background-color: $white;
+	border: 0;
+	margin-bottom: 30px;
+	@extend %md-rounded;
+	@include box-shadow(0px 20px 80px 0px transparentize($dark, .9));
+	.title{
+		margin-bottom: 40px;
+		position: relative;
+		h4{
+			color: $blue;
+			margin-bottom: 0;
+			font-weight: 600;
+			font-family: $font-family-2;
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			height: 50px;
+			width: 5px;
+			background-color: $blue;
+			left: -50px;
+			top: -15px;
+			@extend %md-rounded-right;
+		}
+	}
+	.content-title{
+		margin-bottom: 15px;
+		&.title-sm{
+			margin-bottom: 5px;
+		}
+		h6{
+			font-family: $font-family-2;
+			color: $darkblue;
+			font-weight: 600;
+			margin-bottom: 0;
+		}
+		.subtitle{
+			margin-top: 3px;
+			font-size: 12px;
+			a{
+				color: $blue;
+			}
+		}
+	}
+}
+
+// Timeline
+.timeline{
+	padding: 15px 0 0;
+	table.timeline-wrapper{
+		width: 100%;
+		td{
+			padding-bottom: 40px;
+			&.view-map{
+				cursor: pointer;
+				text-align: right;
+				width: 30px;
+				opacity: .3;
+				@extend %fade-transition;
+				&:hover{
+					opacity: 1;
+				}
+			}
+		}
+		.date{
+			color: $darkblue;
+			font-family: $font-family-2;
+			h6, p{
+				font-weight: 600;
+				margin-bottom: -3px;
+			}
+			p{
+				margin-top: -5px;
+				margin-bottom: -5px;
+			}
+			.year{
+				opacity: .5;
+			}
+			.date-divider{
+				width: 15px;
+				margin-right: 2px;
+				margin-top: 7px;
+				margin-bottom: 7px;
+				background-color: transparentize($darkblue, .9);
+			}
+		}
+		.line-wrapper{
+			position: relative;
+			text-align: center;
+			width: 80px;
+			.bullet{
+				width: 13px;
+				height: 13px;
+				margin: 0 auto;
+				background-color: $blue;
+				position: relative;
+				@extend %circle;
+				&:after{
+					content: '';
+					width: 35px;
+					height: 35px;
+					top: -11px;
+					left: -11px;
+					position: absolute;
+					background-color: transparentize($blue, .85);
+					@extend %circle;
+				}
+			}
+			.bullet-line{
+				width: 3px;
+				height: 100%;
+				top: -15px;
+				left: 50%;
+				margin-left: -1.5px;
+				position: absolute;
+				background-color: #d0ddff;
+				@extend %lg-rounded;
+			}
+		}
+		.timeline-content{
+			color: $gray;
+			.content-title{
+				margin-bottom: 15px;
+				&.title-sm{
+					margin-bottom: 5px;
+				}
+				h6{
+					font-family: $font-family-2;
+					color: $darkblue;
+					font-weight: 600;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+// Badge
+.badge{
+	padding: 7px 8px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: $spacing-sm;
+	&.badge-blue{
+		color: $white;
+		background-color: $blue;
+	}
+}
+
+.tooltip{
+	font-family: $font-family-1;
+	font-size: $base-font-size - 1;
+}
+
+.portfolio{
+	.portfolio-content{
+		font-size: 12px;
+		line-height: 1.5em;
+		margin-bottom: 40px;
+		.portfolio-img{
+			img{
+				width: 100%;
+				height: 130px;
+				@extend %md-rounded;
+				@extend %fit-center;
+				@include box-shadow(0 15px 45px transparentize($dark, .7));
+			}
+		}
+		&:last-child{
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.testimonial{
+	.testi-photo{
+		img{
+			width: 60px;
+			height: 60px;
+			@extend %circle;
+			@extend %fit-center;
+		}
+	}
+	.testi-say{
+		background-color: $white;
+		padding: 10px 20px 20px;
+		font-size: $base-font-size - 1;
+		line-height: 1.45em;
+		@extend %md-rounded;
+		@include box-shadow(0 15px 40px transparentize($dark, .9));
+		.testi-say-header{
+			margin-bottom: 10px;
+			border-bottom: 1px solid transparentize($darkblue, .9);
+			.row{
+				margin-bottom: -5px;
+			}
+		}
+	}
+}
+
+// Full Video
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	border: 0;
+	@extend %md-rounded;
+	iframe {
+		position: absolute;
+		border: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		@extend %md-rounded;
+	}
+}

@@ -1,0 +1,38 @@
+// Font Family
+.font{
+	&-1{
+		font-family: $font-family-1;
+	}
+	&-2{
+		font-family: $font-family-2;
+	}
+}
+
+// Font Size
+h4{
+	font-size: $base-font-size + 6;
+}
+h3{
+	font-size: $base-font-size + 4;
+}
+h6{
+	font-size: $base-font-size + 2;
+}
+
+// Font Color
+.text-blue{
+	color: $blue;
+}
+.text-darkblue{
+	color: $darkblue;
+}
+.text-white{
+	color: $white;
+}
+
+// Font Weight
+.font{
+	&-medium{
+		font-weight: 500
+	}
+}

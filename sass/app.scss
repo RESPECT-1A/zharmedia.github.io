@@ -1,0 +1,23 @@
+// ----------------------------------------------------------
+// LEVIDIO PERSONAL BRANDING - CV 1
+// March, 3 2018
+// Huda - RootPixel
+// ----------------------------------------------------------
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+// Theme Setting
+@import "variables";
+
+// Variables
+@import "mixins";
+@import "parents";
+
+// Core Settings
+@import "base";
+@import "typography";
+@import "elements";
+@import "components";
+@import "responsive";
