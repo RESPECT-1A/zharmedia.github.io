@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membaca File Json</json>
+  </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    $(function () {
+
+      //mengambil data dari file headline.txt
+      $.get("hasilscraping.json", function (obj) {
+        var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>No</th><th scope='col'>Judul Headline</th><th scope='col'>Keterangan</th><th scope='col'>Rating</th><th scope='col'>Image</th><th scope='col'>Waktu Scraping</th></tr></thead ><tbody>";
+        //looping data headline
+        $.each(obj, function (n, data) {
+          //isi tabel
+          str += "<tr><td>" + (n + 1) + "</td>";
+          str += "<td>" + data.Judul + "</td>";
+          str += "<td>" + data.Keterangan + "</td>";
+          str += "<td>" + data.Rating + "</td>";
+          str += "<td>" + data.Image + "</td>";
+          str += "<td>" + data.waktuscrapping + "</td></tr>";
+        });
+        //tag tabel penutup
+        str += "</tbody></table>";
+        //Display semua headline ke html
+        $("#headline_json").html(str);
+      });
+    });
+  </script>
+  <h1> Web Scrapping Selenium </h1>
+  <div id="headline_json"></div>
+</body>
+
+</html>
