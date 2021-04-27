@@ -18,16 +18,17 @@
 
       //mengambil data dari file headline.txt
       $.get("hasilscraping.json", function (obj) {
-        var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>Number</th><th scope='col'>Name</th><th scope='col'>Last</th><th scope='col'>Peak</th><th scope='col'>Weeks</th><th scope='col'> TimeToScrapping</th><th scope='col'>Profile</th></tr></thead ><tbody>";
+        var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>Rank</th><th scope='col'>Name</th><th scope='col'>Last</th><th scope='col'>Peak</th><th scope='col'>Weeks</th><th scope='col'> TimeToScrapping</th><th scope='col'>Profile</th></tr></thead ><tbody>";
         //looping data headline
         $.each(obj, function (n, data) {
           //isi tabel
           str += "<tr><td>" + (n + 1) + "</td>";
-          str += "<td>" + data.Judul + "</td>";
-          str += "<td>" + data.Keterangan + "</td>";
-          str += "<td>" + data.Rating + "</td>";
-          str += "<td>" + data.Image + "</td>";
-          str += "<td>" + data.waktuscrapping + "</td></tr>";
+          str += "<td>" + data.Rank + "</td>";
+          str += "<td>" + data.Name + "</td>";
+          str += "<td>" + data.Last + "</td>";
+          str += "<td>" + data.Peak + "</td>";
+          str += "<td>" + data.TimeToScrapping + "</td>";
+          str += "<td>" + data.Profile + "</td></tr>";
         });
         //tag tabel penutup
         str += "</tbody></table>";
