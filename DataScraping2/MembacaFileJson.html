@@ -18,7 +18,7 @@
 
       //mengambil data dari file headline.txt
       $.get("hasilscraping.json", function (obj) {
-        var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>No</th><th scope='col'>Judul Headline</th><th scope='col'>Keterangan</th><th scope='col'>Rating</th><th scope='col'>Image</th><th scope='col'>Waktu Scraping</th></tr></thead ><tbody>";
+        var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>Number</th><th scope='col'>Name</th><th scope='col'>Last</th><th scope='col'>Peak</th><th scope='col'>Weeks</th><th scope='col'> TimeToScrapping</th><th scope='col'>Profile</th></tr></thead ><tbody>";
         //looping data headline
         $.each(obj, function (n, data) {
           //isi tabel
