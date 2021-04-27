@@ -20,7 +20,7 @@ for artist in driver.find_elements_by_class_name("chart-list-item"):
     # urllib.request.urlretrieve(artist.find_element_by_class_name("chart-list-item__image").get_attribute("src"), str(i)+".png")
     artistlist.append(
                 {
-                    "Nomer": artist.text.split('\n')[0],
+                    "Rank": artist.text.split('\n')[0],
                     "Name": artist.text.split('\n')[1],
                     "Last": artist.text.split('\n')[2].split(' ')[0],
                     "Peak": artist.text.split('\n')[2].split(' ')[3],
