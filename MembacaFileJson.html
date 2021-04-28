@@ -80,7 +80,7 @@
     $(function () {
 
       //mengambil data dari file headline.txt
-      $.get("json/hasilscraping.json", function (obj) {
+      $.get("Json/hasilscraping.json", function (obj) {
         var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>Rank</th><th scope='col'>Name</th><th scope='col'>Last</th><th scope='col'>Peak</th><th scope='col'>Weeks</th><th scope='col'> TimeToScrapping</th><th scope='col'>Profile</th></tr></thead ><tbody>";
         //looping data headline
         $.each(obj, function (n, data) {
