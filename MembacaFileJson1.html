@@ -32,15 +32,17 @@
       <div class="collapse navbar-collapse" id="levidio-branding-menu">
         <ul class="nav nav-pills navbar-nav ml-auto">
           <li class="nav-item">
-						<a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson.html">
-								Data Scraping II
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson1.html">
-								Data Scraping
-						</a>
-					</li>
+            <a class="nav-link" target="self"
+              href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson.html">
+              Data Scraping II
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="self"
+              href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson1.html">
+              Data Scraping
+            </a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
               M Azhar
@@ -76,7 +78,7 @@
     $(function () {
 
       //mengambil data dari file headline.txt
-      $.get("headline.json", function (obj) {
+      $.get("Json/headline.json", function (obj) {
         var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>No</th><th scope='col'>Judul Headline</th><th scope='col'>Kategori</th><th scope='col'>Waktu Publish</th><th scope='col'>Waktu Scraping</th></tr></thead ><tbody>";
         //looping data headline
         $.each(obj, function (n, data) {
