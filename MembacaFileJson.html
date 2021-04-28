@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membaca File Json</json>
+  </title>
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/animate.css">
+  <link type="text/css" rel="stylesheet" href="css/linearicon.min.css">
+  <link type="text/css" rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/Logo Respect3.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Start: Navbar -->
+  <nav id="navbar-levidio-branding" class="navbar navbar-expand-md fixed-top navbar-cv animated-nav">
+    <div class="container">
+      <a class="navbar-brand" href="https://drive.google.com/drive/folders/1iGVE0QN4mY3X0pXeyd4oUYo4VIhBkOVh"
+        target="self">
+        Respect (CLICK HERE!)
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#levidio-branding-menu"
+        aria-controls="levidio-branding-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="levidio-branding-menu">
+        <ul class="nav nav-pills navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+              M Azhar
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+              Rifatia
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+              Syelvie
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+              Hasanah
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+              Ryrie
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End: Navbar -->
+  <br><br><br>
+  <h1 class="font-2 font-extrabold text-dark name"> Web Scrapping Selenium </h1><br>
+  <div id="headline_json"></div>
+  <script type="text/javascript">
+    $(function () {
+
+      //mengambil data dari file headline.txt
+      $.get("hasilscraping.json", function (obj) {
+        var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>Rank</th><th scope='col'>Name</th><th scope='col'>Last</th><th scope='col'>Peak</th><th scope='col'>Weeks</th><th scope='col'> TimeToScrapping</th><th scope='col'>Profile</th></tr></thead ><tbody>";
+        //looping data headline
+        $.each(obj, function (n, data) {
+          //isi tabel
+          str += "<tr><td>" + data.Rank + "</td>";
+          str += "<td>" + data.Name + "</td>";
+          str += "<td>" + data.Last + "</td>";
+          str += "<td>" + data.Peak + "</td>";
+          str += "<td>" + data.Weeks + "</td>";
+          str += "<td>" + data.TimeToScrapping + "</td>";
+          str += "<td>" + data.Profile + "</td></tr>";
+        });
+        //tag tabel penutup
+        str += "</tbody></table>";
+        //Display semua headline ke html
+        $("#headline_json").html(str);
+      });
+    });
+  </script>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <!-- Start: Footer -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="xxs-clear-left col-md-10 offset-md-1 offset-sm-2 offset-1">
+          <div class="row">
+            <div class="col-sm-6 col-6">
+              Made with love by Respect Team
+            </div>
+            <div class="col-sm-6 col-6 text-right xxs-center">
+              Copyright 2021 - All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End: Footer -->
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/settings.js">
+  </script>
+</body>
+
+</html>
