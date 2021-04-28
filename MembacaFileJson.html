@@ -34,6 +34,16 @@
       <div class="collapse navbar-collapse" id="levidio-branding-menu">
         <ul class="nav nav-pills navbar-nav ml-auto">
           <li class="nav-item">
+						<a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson.html">
+								Data Scraping II
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson1.html">
+								Data Scraping
+						</a>
+					</li>
+          <li class="nav-item">
             <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
               M Azhar
             </a>
@@ -70,7 +80,7 @@
     $(function () {
 
       //mengambil data dari file headline.txt
-      $.get("hasilscraping.json", function (obj) {
+      $.get("json/hasilscraping.json", function (obj) {
         var str = "<table class='table'><thead class='thead-dark'><tr><th scope='col'>Rank</th><th scope='col'>Name</th><th scope='col'>Last</th><th scope='col'>Peak</th><th scope='col'>Weeks</th><th scope='col'> TimeToScrapping</th><th scope='col'>Profile</th></tr></thead ><tbody>";
         //looping data headline
         $.each(obj, function (n, data) {
