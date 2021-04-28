@@ -1,0 +1,902 @@
+[
+      {
+            "Rank": "1",
+            "Name": "Eric Church",
+            "Last": "86",
+            "Peak": "1",
+            "Weeks": "185",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/04/eric-church-53x53.jpg"
+      },
+      {
+            "Rank": "2",
+            "Name": "Taylor Swift",
+            "Last": "1",
+            "Peak": "1",
+            "Weeks": "352",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2006/12/taylor-swift-p7u-artist-chart-ylp-53x53.jpg"
+      },
+      {
+            "Rank": "3",
+            "Name": "Greta Van Fleet",
+            "Last": "-",
+            "Peak": "1",
+            "Weeks": "20",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/09/greta-van-fleet-u60-53x53.jpg"
+      },
+      {
+            "Rank": "4",
+            "Name": "Justin Bieber",
+            "Last": "4",
+            "Peak": "1",
+            "Weeks": "322",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2009/07/justin-bieber-f8k-53x53.jpg"
+      },
+      {
+            "Rank": "5",
+            "Name": "The Weeknd",
+            "Last": "5",
+            "Peak": "1",
+            "Weeks": "302",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2011/11/the-weeknd-nsd-53x53.jpg"
+      },
+      {
+            "Rank": "6",
+            "Name": "Drake",
+            "Last": "7",
+            "Peak": "1",
+            "Weeks": "356",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2009/12/drake-hq6-artist-chart-vz1-53x53.jpg"
+      },
+      {
+            "Rank": "7",
+            "Name": "Ariana Grande",
+            "Last": "3",
+            "Peak": "1",
+            "Weeks": "324",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2011/02/ariana-grande-ypy-artist-chart-xj0-53x53.jpg"
+      },
+      {
+            "Rank": "8",
+            "Name": "Luke Combs",
+            "Last": "8",
+            "Peak": "1",
+            "Weeks": "216",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/03/luke-combs-y14-53x53.jpg"
+      },
+      {
+            "Rank": "9",
+            "Name": "Young Thug",
+            "Last": "90",
+            "Peak": "8",
+            "Weeks": "177",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2014/09/young-thug-288-53x53.jpg"
+      },
+      {
+            "Rank": "10",
+            "Name": "Dua Lipa",
+            "Last": "9",
+            "Peak": "4",
+            "Weeks": "155",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/12/dua-lipa-5k0-53x53.jpg"
+      },
+      {
+            "Rank": "11",
+            "Name": "Polo G",
+            "Last": "6",
+            "Peak": "2",
+            "Weeks": "67",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/04/polo-g-g7p.jpg"
+      },
+      {
+            "Rank": "12",
+            "Name": "Billie Eilish",
+            "Last": "11",
+            "Peak": "1",
+            "Weeks": "139",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/05/billie-eilish-1e3-53x53.jpg"
+      },
+      {
+            "Rank": "13",
+            "Name": "Bruno Mars",
+            "Last": "16",
+            "Peak": "1",
+            "Weeks": "334",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2010/12/bruno-mars-va7-53x53.jpg"
+      },
+      {
+            "Rank": "14",
+            "Name": "Lil Baby",
+            "Last": "14",
+            "Peak": "1",
+            "Weeks": "154",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/11/lil-baby-nwx-53x53.jpg"
+      },
+      {
+            "Rank": "15",
+            "Name": "Olivia Rodrigo",
+            "Last": "12",
+            "Peak": "3",
+            "Weeks": "15",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://www.billboard.com/assets/1619117579/images/charts/bb-placeholder-new.jpg?7dd3da9de4a1b2deb1a8"
+      },
+      {
+            "Rank": "16",
+            "Name": "BTS",
+            "Last": "21",
+            "Peak": "1",
+            "Weeks": "237",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/12/bts-4i5-53x53.jpg"
+      },
+      {
+            "Rank": "17",
+            "Name": "Pop Smoke",
+            "Last": "13",
+            "Peak": "1",
+            "Weeks": "58",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/08/pop-smoke-5gi-artist-chart-4y8-53x53.jpg"
+      },
+      {
+            "Rank": "18",
+            "Name": "Morgan Wallen",
+            "Last": "17",
+            "Peak": "1",
+            "Weeks": "111",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/01/morgan-wallen-ur7-53x53.jpg"
+      },
+      {
+            "Rank": "19",
+            "Name": "Rod Wave",
+            "Last": "10",
+            "Peak": "1",
+            "Weeks": "54",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/06/rod-wave-i1w-53x53.jpg"
+      },
+      {
+            "Rank": "20",
+            "Name": "Chris Stapleton",
+            "Last": "28",
+            "Peak": "1",
+            "Weeks": "287",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/02/chris-stapleton-ha2-53x53.jpg"
+      },
+      {
+            "Rank": "21",
+            "Name": "Gabby Barrett",
+            "Last": "18",
+            "Peak": "18",
+            "Weeks": "66",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/06/gabby-barrett-ait-53x53.jpg"
+      },
+      {
+            "Rank": "22",
+            "Name": "DaBaby",
+            "Last": "19",
+            "Peak": "1",
+            "Weeks": "106",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/07/dababy-yo9-53x53.jpg"
+      },
+      {
+            "Rank": "23",
+            "Name": "Carrie Underwood",
+            "Last": "30",
+            "Peak": "1",
+            "Weeks": "231",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1840/12/carrie-underwood-obd-53x53.jpg"
+      },
+      {
+            "Rank": "24",
+            "Name": "Doja Cat",
+            "Last": "20",
+            "Peak": "8",
+            "Weeks": "66",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/04/doja-cat-m37-53x53.jpg"
+      },
+      {
+            "Rank": "25",
+            "Name": "Post Malone",
+            "Last": "22",
+            "Peak": "1",
+            "Weeks": "252",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/10/post-malone-1vw-53x53.jpg"
+      },
+      {
+            "Rank": "26",
+            "Name": "Harry Styles",
+            "Last": "23",
+            "Peak": "1",
+            "Weeks": "95",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/04/harry-styles-psx-artist-chart-rzg-53x53.jpg"
+      },
+      {
+            "Rank": "27",
+            "Name": "SZA",
+            "Last": "25",
+            "Peak": "16",
+            "Weeks": "87",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/07/sza-8os-53x53.jpg"
+      },
+      {
+            "Rank": "28",
+            "Name": "Juice WRLD",
+            "Last": "26",
+            "Peak": "1",
+            "Weeks": "153",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/05/juice-wrld-f0a-53x53.jpg"
+      },
+      {
+            "Rank": "29",
+            "Name": "The Offspring",
+            "Last": "-",
+            "Peak": "29",
+            "Weeks": "1",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2008/12/the-offspring-y1c-53x53.jpg"
+      },
+      {
+            "Rank": "30",
+            "Name": "Bad Bunny",
+            "Last": "47",
+            "Peak": "2",
+            "Weeks": "162",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/08/bad-bunny-kt8-artist-chart-wqt-53x53.jpg"
+      },
+      {
+            "Rank": "31",
+            "Name": "Lil Nas X",
+            "Last": "15",
+            "Peak": "3",
+            "Weeks": "70",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/01/lil-nas-x-zl6-53x53.jpg"
+      },
+      {
+            "Rank": "32",
+            "Name": "Cardi B",
+            "Last": "27",
+            "Peak": "1",
+            "Weeks": "164",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/03/cardi-b-mts-artist-chart-176-53x53.jpg"
+      },
+      {
+            "Rank": "33",
+            "Name": "Gunna",
+            "Last": "-",
+            "Peak": "1",
+            "Weeks": "91",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/06/gunna-16m-53x53.jpg"
+      },
+      {
+            "Rank": "34",
+            "Name": "Travis Scott",
+            "Last": "41",
+            "Peak": "1",
+            "Weeks": "259",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/09/travis-scott-jll-53x53.jpg"
+      },
+      {
+            "Rank": "35",
+            "Name": "Megan Thee Stallion",
+            "Last": "29",
+            "Peak": "2",
+            "Weeks": "93",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/03/megan-thee-stallion-fnn-53x53.jpg"
+      },
+      {
+            "Rank": "36",
+            "Name": "Dan + Shay",
+            "Last": "34",
+            "Peak": "11",
+            "Weeks": "178",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2014/12/dan-shay-53q-53x53.jpg"
+      },
+      {
+            "Rank": "37",
+            "Name": "Masked Wolf",
+            "Last": "33",
+            "Peak": "33",
+            "Weeks": "8",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://www.billboard.com/assets/1619117579/images/charts/bb-placeholder-new.jpg?7dd3da9de4a1b2deb1a8"
+      },
+      {
+            "Rank": "38",
+            "Name": "Giveon",
+            "Last": "35",
+            "Peak": "23",
+            "Weeks": "10",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2020/03/giveon-gpd-artist-chart-ntc-53x53.jpg"
+      },
+      {
+            "Rank": "39",
+            "Name": "Queen",
+            "Last": "40",
+            "Peak": "1",
+            "Weeks": "156",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1975/12/queen-m21-53x53.jpg"
+      },
+      {
+            "Rank": "40",
+            "Name": "Maroon 5",
+            "Last": "31",
+            "Peak": "1",
+            "Weeks": "350",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1840/12/maroon-5-9st-53x53.jpg"
+      },
+      {
+            "Rank": "41",
+            "Name": "Fleetwood Mac",
+            "Last": "36",
+            "Peak": "3",
+            "Weeks": "107",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/05/fleetwood-mac-53x53.jpg"
+      },
+      {
+            "Rank": "42",
+            "Name": "Cannibal Corpse",
+            "Last": "-",
+            "Peak": "42",
+            "Weeks": "1",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2021/05/cannibal-corpse-pay-artist-chart-kyd-53x53.jpg"
+      },
+      {
+            "Rank": "43",
+            "Name": "AC/DC",
+            "Last": "44",
+            "Peak": "1",
+            "Weeks": "91",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/06/ac-dc-53x53.jpg"
+      },
+      {
+            "Rank": "44",
+            "Name": "Moneybagg Yo",
+            "Last": "43",
+            "Peak": "24",
+            "Weeks": "49",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/03/moneybagg-yo-vp0-53x53.jpg"
+      },
+      {
+            "Rank": "45",
+            "Name": "Lil Tjay",
+            "Last": "37",
+            "Peak": "19",
+            "Weeks": "29",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/05/lil-tjay-dze-artist-chart-pa9-53x53.jpg"
+      },
+      {
+            "Rank": "46",
+            "Name": "Khalid",
+            "Last": "39",
+            "Peak": "1",
+            "Weeks": "216",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2016/12/khalid-dsk-53x53.jpg"
+      },
+      {
+            "Rank": "47",
+            "Name": "Imagine Dragons",
+            "Last": "46",
+            "Peak": "1",
+            "Weeks": "319",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1840/12/imagine-dragons-hy6-53x53.jpg"
+      },
+      {
+            "Rank": "48",
+            "Name": "Tom Petty And The Heartbreakers",
+            "Last": "-",
+            "Peak": "1",
+            "Weeks": "30",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1981/12/tom-petty-and-the-heartbreakers-f8u-53x53.jpg"
+      },
+      {
+            "Rank": "49",
+            "Name": "Luke Bryan",
+            "Last": "24",
+            "Peak": "1",
+            "Weeks": "342",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1840/12/luke-bryan-3d2-53x53.jpg"
+      },
+      {
+            "Rank": "50",
+            "Name": "Lil Durk",
+            "Last": "38",
+            "Peak": "3",
+            "Weeks": "42",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/06/lil-durk-o7m-53x53.jpg"
+      },
+      {
+            "Rank": "51",
+            "Name": "Lewis Capaldi",
+            "Last": "52",
+            "Peak": "11",
+            "Weeks": "101",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/12/lewis-capaldi-s2h-53x53.jpg"
+      },
+      {
+            "Rank": "52",
+            "Name": "Eminem",
+            "Last": "54",
+            "Peak": "1",
+            "Weeks": "328",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/02/eminem-53x53.jpg"
+      },
+      {
+            "Rank": "53",
+            "Name": "Kane Brown",
+            "Last": "53",
+            "Peak": "2",
+            "Weeks": "200",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/10/kane-brown-ndj-53x53.jpg"
+      },
+      {
+            "Rank": "54",
+            "Name": "Ed Sheeran",
+            "Last": "51",
+            "Peak": "1",
+            "Weeks": "349",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2012/11/ed-sheeran-buv-artist-chart-914-53x53.jpg"
+      },
+      {
+            "Rank": "55",
+            "Name": "Ava Max",
+            "Last": "45",
+            "Peak": "22",
+            "Weeks": "75",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/09/ava-max-k5u-53x53.jpg"
+      },
+      {
+            "Rank": "56",
+            "Name": "Anderson .Paak",
+            "Last": "50",
+            "Peak": "11",
+            "Weeks": "9",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2016/01/anderson-paak-kkp-53x53.jpg"
+      },
+      {
+            "Rank": "57",
+            "Name": "Miranda Lambert",
+            "Last": "70",
+            "Peak": "2",
+            "Weeks": "105",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2016/12/miranda-lambert-53x53.jpg"
+      },
+      {
+            "Rank": "58",
+            "Name": "Nirvana",
+            "Last": "65",
+            "Peak": "38",
+            "Weeks": "51",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2011/03/nirvana-ezv-53x53.jpg"
+      },
+      {
+            "Rank": "59",
+            "Name": "Thomas Rhett",
+            "Last": "64",
+            "Peak": "1",
+            "Weeks": "312",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2013/12/thomas-rhett-r0o-53x53.jpg"
+      },
+      {
+            "Rank": "60",
+            "Name": "Kendrick Lamar",
+            "Last": "56",
+            "Peak": "1",
+            "Weeks": "279",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2012/11/kendrick-lamar-h1y-53x53.jpg"
+      },
+      {
+            "Rank": "61",
+            "Name": "Tate McRae",
+            "Last": "60",
+            "Peak": "52",
+            "Weeks": "16",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/11/tate-mcrae-yme-53x53.jpg"
+      },
+      {
+            "Rank": "62",
+            "Name": "The Beatles",
+            "Last": "62",
+            "Peak": "3",
+            "Weeks": "179",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1970/12/the-beatles-ism-artist-chart-6xr-53x53.jpg"
+      },
+      {
+            "Rank": "63",
+            "Name": "Sam Hunt",
+            "Last": "68",
+            "Peak": "4",
+            "Weeks": "277",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2014/08/sam-hunt-2mf-53x53.jpg"
+      },
+      {
+            "Rank": "64",
+            "Name": "AJR",
+            "Last": "55",
+            "Peak": "23",
+            "Weeks": "39",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2014/05/ajr-k86-53x53.jpg"
+      },
+      {
+            "Rank": "65",
+            "Name": "Pooh Shiesty",
+            "Last": "49",
+            "Peak": "8",
+            "Weeks": "12",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2020/10/pooh-shiesty-klv-53x53.jpg"
+      },
+      {
+            "Rank": "66",
+            "Name": "Blake Shelton",
+            "Last": "72",
+            "Peak": "1",
+            "Weeks": "325",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/02/blake-shelton-53x53.jpg"
+      },
+      {
+            "Rank": "67",
+            "Name": "Lee Brice",
+            "Last": "69",
+            "Peak": "15",
+            "Weeks": "120",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2010/12/lee-brice-vbm-53x53.jpg"
+      },
+      {
+            "Rank": "68",
+            "Name": "Saweetie",
+            "Last": "71",
+            "Peak": "44",
+            "Weeks": "48",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/03/saweetie-g0q-53x53.jpg"
+      },
+      {
+            "Rank": "69",
+            "Name": "Jason Aldean",
+            "Last": "57",
+            "Peak": "1",
+            "Weeks": "332",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2006/12/jason-aldean-sa0-53x53.jpg"
+      },
+      {
+            "Rank": "70",
+            "Name": "Florida Georgia Line",
+            "Last": "48",
+            "Peak": "1",
+            "Weeks": "315",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2012/12/florida-georgia-line-wbf-53x53.jpg"
+      },
+      {
+            "Rank": "71",
+            "Name": "DMX",
+            "Last": "2",
+            "Peak": "2",
+            "Weeks": "2",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1997/11/dmx-6w6-53x53.jpg"
+      },
+      {
+            "Rank": "72",
+            "Name": "The Kid LAROI",
+            "Last": "66",
+            "Peak": "20",
+            "Weeks": "25",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2020/02/the-kid-laroi-qev-53x53.jpg"
+      },
+      {
+            "Rank": "73",
+            "Name": "Roddy Ricch",
+            "Last": "59",
+            "Peak": "2",
+            "Weeks": "72",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2018/11/roddy-ricch-eqp-53x53.jpg"
+      },
+      {
+            "Rank": "74",
+            "Name": "Liquid Tension Experiment",
+            "Last": "-",
+            "Peak": "74",
+            "Weeks": "1",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1999/07/liquid-tension-experiment-y5r-53x53.jpg"
+      },
+      {
+            "Rank": "75",
+            "Name": "Metallica",
+            "Last": "67",
+            "Peak": "2",
+            "Weeks": "286",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/05/metallica-53x53.jpg"
+      },
+      {
+            "Rank": "76",
+            "Name": "Michael Jackson",
+            "Last": "79",
+            "Peak": "20",
+            "Weeks": "281",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1840/12/michael-jackson-9to-53x53.jpg"
+      },
+      {
+            "Rank": "77",
+            "Name": "J. Cole",
+            "Last": "84",
+            "Peak": "1",
+            "Weeks": "226",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2011/12/j-cole-s1s-53x53.jpg"
+      },
+      {
+            "Rank": "78",
+            "Name": "Glass Animals",
+            "Last": "80",
+            "Peak": "7",
+            "Weeks": "10",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2014/04/glass-animals-xy6-53x53.jpg"
+      },
+      {
+            "Rank": "79",
+            "Name": "blackbear",
+            "Last": "73",
+            "Peak": "30",
+            "Weeks": "88",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2014/05/blackbear-gbd-53x53.jpg"
+      },
+      {
+            "Rank": "80",
+            "Name": "Jake Owen",
+            "Last": "75",
+            "Peak": "13",
+            "Weeks": "35",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2006/12/jake-owen-17q-53x53.jpg"
+      },
+      {
+            "Rank": "81",
+            "Name": "Eagles",
+            "Last": "82",
+            "Peak": "10",
+            "Weeks": "113",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/08/eagles-53x53.jpg"
+      },
+      {
+            "Rank": "82",
+            "Name": "Demi Lovato",
+            "Last": "42",
+            "Peak": "2",
+            "Weeks": "159",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2009/12/demi-lovato-sad-artist-chart-nkm-53x53.jpg"
+      },
+      {
+            "Rank": "83",
+            "Name": "H.E.R.",
+            "Last": "76",
+            "Peak": "26",
+            "Weeks": "48",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/11/her-7vm-53x53.jpg"
+      },
+      {
+            "Rank": "84",
+            "Name": "Lana Del Rey",
+            "Last": "63",
+            "Peak": "2",
+            "Weeks": "77",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2011/10/lana-del-rey-sr7-53x53.jpg"
+      },
+      {
+            "Rank": "85",
+            "Name": "Chris Brown",
+            "Last": "74",
+            "Peak": "1",
+            "Weeks": "304",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2006/12/chris-brown-cte-53x53.jpg"
+      },
+      {
+            "Rank": "86",
+            "Name": "Machine Gun Kelly",
+            "Last": "99",
+            "Peak": "1",
+            "Weeks": "59",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2014/05/machine-gun-kelly-usa-53x53.jpg"
+      },
+      {
+            "Rank": "87",
+            "Name": "Lady Gaga",
+            "Last": "58",
+            "Peak": "1",
+            "Weeks": "200",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/05/lady-gaga-53x53.jpg"
+      },
+      {
+            "Rank": "88",
+            "Name": "twenty one pilots",
+            "Last": "78",
+            "Peak": "1",
+            "Weeks": "260",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/04/twenty-one-pilots-840-53x53.jpg"
+      },
+      {
+            "Rank": "89",
+            "Name": "SpotemGottem",
+            "Last": "81",
+            "Peak": "55",
+            "Weeks": "4",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2021/01/spotemgottem-7d1-artist-chart-kp2-53x53.jpg"
+      },
+      {
+            "Rank": "90",
+            "Name": "Guns N' Roses",
+            "Last": "91",
+            "Peak": "16",
+            "Weeks": "41",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1840/12/guns-n-roses-vl1-53x53.jpg"
+      },
+      {
+            "Rank": "91",
+            "Name": "Mooski",
+            "Last": "83",
+            "Peak": "83",
+            "Weeks": "5",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://www.billboard.com/assets/1619117579/images/charts/bb-placeholder-new.jpg?7dd3da9de4a1b2deb1a8"
+      },
+      {
+            "Rank": "92",
+            "Name": "Maren Morris",
+            "Last": "97",
+            "Peak": "10",
+            "Weeks": "199",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2016/02/maren-morris-knd-artist-chart-413-53x53.jpg"
+      },
+      {
+            "Rank": "93",
+            "Name": "Lynyrd Skynyrd",
+            "Last": "61",
+            "Peak": "40",
+            "Weeks": "111",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1973/09/lynyrd-skynyrd-748-53x53.jpg"
+      },
+      {
+            "Rank": "94",
+            "Name": "24kGoldn",
+            "Last": "77",
+            "Peak": "25",
+            "Weeks": "35",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2019/09/24kgoldn-hvh-artist-chart-78d-53x53.jpg"
+      },
+      {
+            "Rank": "95",
+            "Name": "Creedence Clearwater Revival",
+            "Last": "87",
+            "Peak": "44",
+            "Weeks": "41",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/1840/12/creedence-clearwater-revival-yus-53x53.jpg"
+      },
+      {
+            "Rank": "96",
+            "Name": "Coi Leray",
+            "Last": "93",
+            "Peak": "91",
+            "Weeks": "5",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://www.billboard.com/assets/1619117579/images/charts/bb-placeholder-new.jpg?7dd3da9de4a1b2deb1a8"
+      },
+      {
+            "Rank": "97",
+            "Name": "Kanye West",
+            "Last": "-",
+            "Peak": "1",
+            "Weeks": "122",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2017/04/kanye-west-53x53.jpg"
+      },
+      {
+            "Rank": "98",
+            "Name": "Little Big Town",
+            "Last": "-",
+            "Peak": "7",
+            "Weeks": "70",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2006/12/little-big-town-z2a-53x53.jpg"
+      },
+      {
+            "Rank": "99",
+            "Name": "Brett Young",
+            "Last": "85",
+            "Peak": "15",
+            "Weeks": "165",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2016/10/brett-young-9rw-53x53.jpg"
+      },
+      {
+            "Rank": "100",
+            "Name": "Lauren Daigle",
+            "Last": "-",
+            "Peak": "3",
+            "Weeks": "133",
+            "TimeToScrapping": "27 April 2021 19:00:22",
+            "Profile": "https://charts-static.billboard.com/img/2015/05/lauren-daigle-vvo-53x53.jpg"
+      }
+]
