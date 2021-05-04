@@ -51,7 +51,7 @@
             }
             // Set chart options
             var options = {
-                'title': 'Weeks on Chart',
+                'title': 'Jumlah weeks yang dipertahankan dalam top 100',
                 'width': 800,
                 'height': 600
             };
@@ -94,7 +94,7 @@
             }
             // Set chart options
             var options = {
-                'title': 'Peaks on Chart',
+                'title': 'Jumlah Peaks Position yang didapat',
                 'width': 800,
                 'height': 600
             };
@@ -121,7 +121,7 @@
             // Create the data table.
             var data = new google.visualization.DataTable();
             data.addColumn('string', 'Topping');
-            data.addColumn('number', 'Last Week');
+            data.addColumn('number', 'Kenaikan dalam 1 minggu ');
             var z;
             for (z = 30; z <= 35; z += 1) {
                 var x = 0;
@@ -137,7 +137,7 @@
             }
             // Set chart options
             var options = {
-                'title': 'Last Week',
+                'title': 'Kenaikan dalam 1 minggu ',
                 'width': 800,
                 'height': 600
             };
@@ -172,7 +172,7 @@
             // Create the data table.
             var data = new google.visualization.DataTable();
             data.addColumn('string', 'Topping');
-            data.addColumn('number', 'Two Weeks Ago');
+            data.addColumn('number', 'Last Two Weeks Top chart');
             var z;
             for (z = 10; z <= 50; z += 10) {
                 var x = 0;
@@ -188,7 +188,7 @@
             }
             // Set chart options
             var options = {
-                'title': 'Two Weeks Ago',
+                'title': 'Last Two Weeks Top chart',
                 'width': 800,
                 'height': 600
             };
