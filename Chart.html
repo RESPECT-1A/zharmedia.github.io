@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart A3 Tugas 8</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+    <link type="text/css" rel="stylesheet" href="css/linearicon.min.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="icon" href="img/Logo Respect3.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- PieChart -->
+    <script type="text/javascript">
+
+        google.charts.load('current', { 'packages': ['corechart'] });
+
+        google.charts.setOnLoadCallback(drawChart);
+
+
+        function drawChart() {
+            var request = new XMLHttpRequest();
+            request.open("GET", "./hasilscraping.json", false);
+            request.send(null)
+            var obj = JSON.parse(request.responseText);
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Weeks');
+            var z;
+            for (z = 50; z <= 250; z += 50) {
+                var x = 0;
+                for (const i in obj) {
+                    if ((parseInt(obj[i].Weeks) >= z && (parseInt(obj[i].Weeks) <= z + 49))) {
+                        x++;
+                    }
+                }
+                data.addRow([
+                    z.toString(),
+                    x
+                ]);
+            }
+            // Set chart options
+            var options = {
+                'title': 'Weeks on Chart',
+                'width': 800,
+                'height': 600
+            };
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
+
+    <!-- LineChart -->
+    <script type="text/javascript">
+
+        google.charts.load('current', { 'packages': ['corechart'] });
+
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var request = new XMLHttpRequest();
+            request.open("GET", "./hasilscraping.json", false);
+            request.send(null)
+            var obj = JSON.parse(request.responseText);
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Peak Position');
+            var z;
+            for (z = 5; z <= 40; z += 5) {
+                var x = 0;
+                for (const i in obj) {
+                    if ((parseInt(obj[i].Peak) >= z && (parseInt(obj[i].Peak) <= z + 4))) {
+                        x++;
+                    }
+                }
+                data.addRow([
+                    z.toString(),
+                    x
+                ]);
+            }
+            // Set chart options
+            var options = {
+                'title': 'Peaks on Chart',
+                'width': 800,
+                'height': 600
+            };
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.LineChart(document.getElementById('chart_div1'));
+            chart.draw(data, options);
+        }
+    </script>
+
+    <!-- BarChart -->
+    <script type="text/javascript">
+
+        google.charts.load('current', { 'packages': ['corechart'] });
+
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var request = new XMLHttpRequest();
+            request.open("GET", "./hasilscraping.json", false);
+            request.send(null)
+            var obj = JSON.parse(request.responseText);
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Last Week');
+            var z;
+            for (z = 30; z <= 35; z += 1) {
+                var x = 0;
+                for (const i in obj) {
+                    if ((parseInt(obj[i].Last) >= z && (parseInt(obj[i].Last) <= z + 1))) {
+                        x++;
+                    }
+                }
+                data.addRow([
+                    z.toString(),
+                    x
+                ]);
+            }
+            // Set chart options
+            var options = {
+                'title': 'Last Week',
+                'width': 800,
+                'height': 600
+            };
+
+            var data = google.visualization.arrayToDataTable([
+                ["1", "Last Week", { role: "style" }],
+                ["2", 8.94, "#b87333"],
+                ["3", 10.49, "silver"],
+                ["4", 19.30, "gold"],
+                ["5", 21.45, "color: #e5e4e2"]
+            ]);
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div2'));
+            chart.draw(data, options);
+        }
+    </script>
+
+    <!-- ColumnChart -->
+    <script type="text/javascript">
+
+        google.charts.load('current', { 'packages': ['corechart'] });
+
+        google.charts.setOnLoadCallback(drawChart);
+
+
+        function drawChart() {
+            var request = new XMLHttpRequest();
+            request.open("GET", "./hasilscraping.json", false);
+            request.send(null)
+            var obj = JSON.parse(request.responseText);
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Two Weeks Ago');
+            var z;
+            for (z = 10; z <= 50; z += 10) {
+                var x = 0;
+                for (const i in obj) {
+                    if ((parseInt(obj[i].Weeks) >= z && (parseInt(obj[i].Weeks) <= z + 9))) {
+                        x++;
+                    }
+                }
+                data.addRow([
+                    z.toString(),
+                    x
+                ]);
+            }
+            // Set chart options
+            var options = {
+                'title': 'Two Weeks Ago',
+                'width': 800,
+                'height': 600
+            };
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.ColumnChart(document.getElementById('chart_div3'));
+            chart.draw(data, options);
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+
+<body>
+    <!-- Start: Navbar -->
+    <nav id="navbar-levidio-branding" class="navbar navbar-expand-md fixed-top navbar-cv animated-nav">
+        <div class="container">
+            <a class="navbar-brand" href="https://drive.google.com/drive/folders/1iGVE0QN4mY3X0pXeyd4oUYo4VIhBkOVh"
+                target="self">
+                Respect (CLICK HERE!)
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#levidio-branding-menu"
+                aria-controls="levidio-branding-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="levidio-branding-menu">
+                <ul class="nav nav-pills navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+                            Chart
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="self"
+                            href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson.html">
+                            Data Scraping II
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="self"
+                            href="https://respect-1a.github.io/zharmedia.github.io/MembacaFileJson1.html">
+                            Data Scraping
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+                            M Azhar
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+                            Rifatia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+                            Syelvie
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+                            Hasanah
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="self" href="https://respect-1a.github.io/zharmedia.github.io/">
+                            Ryrie
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End: Navbar -->
+
+    <br><br><br>
+    <h1 class="font-2 font-extrabold text-dark name"> Chart Billboard Artist </h1>
+    <center>
+        <div id="chart_div"></div>
+        <div id="chart_div1"></div>
+        <div id="chart_div2"></div>
+        <div id="chart_div3"></div>
+    </center>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!-- Start: Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="xxs-clear-left col-md-10 offset-md-1 offset-sm-2 offset-1">
+                    <div class="row">
+                        <div class="col-sm-6 col-6">
+                            Made with love by Respect Team
+                        </div>
+                        <div class="col-sm-6 col-6 text-right xxs-center">
+                            Copyright 2021 - All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End: Footer -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/settings.js">
+    </script>
+</body>
+
+</html>
