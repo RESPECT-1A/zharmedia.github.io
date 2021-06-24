@@ -16,6 +16,12 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="../../assets/css/style.css">
     <!-- End layout styles -->
+    <!-- Styles - Untuk CSV dll -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/dripicons.css" />
+    <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="shortcut icon" href="../../assets/images/favicon.png" />
   </head>
   <body>
@@ -191,14 +197,65 @@
                     <h4 class="card-title">Alessia Cara</h4>
                     <p class="card-description">  Indonesian artist</p>
                     <div class="table-responsive">
-                      <table class="table table-hover table-bordered">
+                      <table class="table table-hover table-bordered" id="subscribers-table">
                         <thead>
                           <tr>
                             <th>Song Title</th>
                             <th>Album Name</th>
                             <th>Popularity</th>
                             <th>Release Date</th>
-                            <th>Album Type</th>
+                            <th>Key Mode</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Scars To Your Beautiful</td>
+                            <td>Know-It-All (Deluxe)</td>
+                            <td class="text-success"> 73.00% <i class="mdi mdi-arrow-up"></i></td>
+                            <td>2017-02-23</td>
+                            <td><label class="badge badge-success">Album Type</label></td>
+                          </tr>
+                          <tr>
+                            <td>Out Of Love</td>
+                            <td>The Pains Of Growing</td>
+                            <td class="text-success"> 77.00% <i class="mdi mdi-arrow-up"></i></td>
+                            <td>2018-11-30</td>
+                            <td><label class="badge badge-success">Album Type</label></td>
+                          </tr>
+                          <tr>
+                            <td>Stay</td>
+                            <td>Stay</td>
+                            <td class="text-success"> 77.00% <i class="mdi mdi-arrow-up"></i></td>
+                            <td>2/23/2017</td>
+                            <td><label class="badge badge-danger">Single Type</label></td>
+                          </tr>
+                          <tr>
+                            <td>I'm Like A Bird - Recorded at Spotify Studios NYC</td>
+                            <td>Spotify Singles</td>
+                            <td class="text-danger"> 68.00% <i class="mdi mdi-arrow-down"></i></td>
+                            <td>2019-04-24</td>
+                            <td><label class="badge badge-danger">Single Type</label></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 grid-margin stretch-card" id="alessia">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Asadsad Cara</h4>
+                    <p class="card-description">  Indonesian artist</p>
+                    <div class="table-responsive">
+                      <table class="table table-hover table-bordered" id="subscribers-table1">
+                        <thead>
+                          <tr>
+                            <th>Song Title</th>
+                            <th>Album Name</th>
+                            <th>Popularity</th>
+                            <th>Release Date</th>
+                            <th>Key Mode</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -242,8 +299,7 @@
           <!-- partial:../../partials/_footer.html -->
           <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
-              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin templates</a> from Bootstrapdash.com</span>
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © Respect | 2021</span>
             </div>
           </footer>
           <!-- partial -->
@@ -264,6 +320,17 @@
     <script src="../../assets/js/misc.js"></script>
     <script src="../../assets/js/settings.js"></script>
     <script src="../../assets/js/todolist.js"></script>
+    <!-- JavaScript Lev -->
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="js/jszip.min.js"></script>
+    <script type="text/javascript" src="js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="js/substable.js"></script>
+    <!-- End JavaScript Lev -->
     <!-- endinject -->
     <!-- Custom js for this page -->
     <!-- End custom js for this page -->
