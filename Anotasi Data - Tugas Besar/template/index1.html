@@ -20,6 +20,13 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- End layout styles -->
+    <!-- Styles - Untuk CSV dll -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="index-table/css/dripicons.css" />
+    <link rel="stylesheet" type="text/css" href="index-table/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="index-table/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="index-table/css/styles.css" />
+    <!-- End of CSV -->
     <link rel="shortcut icon" href="assets/images/favicon.png" />
   </head>
   <body>
@@ -472,7 +479,7 @@
                   <div class="card-body">
                     <h4 class="card-title">Global Top 20 | 2021 Hits - Spotify</h4>
                     <div class="table-responsive">
-                      <table class="table">
+                      <table class="table" id="subscribers-table1">
                         <thead>
                           <tr>
                             <th>
@@ -484,9 +491,9 @@
                             </th>
                             <th>Artist</th>
                             <th>Country</th>
-                            <th>Product Cost</th>
-                            <th>Project</th>
-                            <th>Payment Mode</th>
+                            <th>Popularity</th>
+                            <th>Type</th>
+                            <th>Followers</th>
                             <th>Date</th>
                             <th>Genre</th>
                           </tr>
@@ -502,36 +509,15 @@
                             </td>
                             <td>
                               <img src="assets/images/faces/face1.jpg" alt="image" />
-                              <span class="pl-2">Henry Klein</span>
+                              <span class="pl-2"><a href="https://open.spotify.com/artist/6S2OmqARrzebs0tKUEyXyp">Demi Lovato</a></span>
                             </td>
-                            <td>02312</td>
-                            <td>$14,500</td>
-                            <td>Dashboard</td>
-                            <td>Credit card</td>
-                            <td>04 Dec 2019</td>
+                            <td>United States</td>
+                            <td class="text-success"> 86.00% <i class="mdi mdi-arrow-up"></i></td>
+                            <td>Artist</td>
+                            <td>19983712</td>
+                            <td>24 Jun 21</td>
                             <td>
-                              <div class="badge badge-outline-success">Approved</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <div class="form-check form-check-muted m-0">
-                                <label class="form-check-label">
-                                  <input type="checkbox" class="form-check-input" />
-                                </label>
-                              </div>
-                            </td>
-                            <td>
-                              <img src="assets/images/faces/face2.jpg" alt="image" />
-                              <span class="pl-2">Estella Bryan</span>
-                            </td>
-                            <td>02312</td>
-                            <td>$14,500</td>
-                            <td>Website</td>
-                            <td>Cash on delivered</td>
-                            <td>04 Dec 2019</td>
-                            <td>
-                              <div class="badge badge-outline-warning">Pending</div>
+                              <div class="badge badge-primary">Dance Pop</div>
                             </td>
                           </tr>
                           <tr>
@@ -543,37 +529,16 @@
                               </div>
                             </td>
                             <td>
-                              <img src="assets/images/faces/face5.jpg" alt="image" />
-                              <span class="pl-2">Lucy Abbott</span>
+                              <img src="assets/images/faces/face1.jpg" alt="image" />
+                              <span class="pl-2"><a href="https://respect-1a.github.io/zharmedia.github.io/Anotasi%20Data%20-%20Tugas%20Besar/template/pages/tables/basic-table.html#alessia">Alessia Cara</a></span>
                             </td>
-                            <td>02312</td>
-                            <td>$14,500</td>
-                            <td>App design</td>
-                            <td>Credit card</td>
-                            <td>04 Dec 2019</td>
+                            <td>Canada</td>
+                            <td class="text-success"> 80.00% <i class="mdi mdi-arrow-up"></i></td>
+                            <td>Artist</td>
+                            <td>8976825</td>
+                            <td>25 Jun 21</td>
                             <td>
-                              <div class="badge badge-outline-danger">Rejected</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <div class="form-check form-check-muted m-0">
-                                <label class="form-check-label">
-                                  <input type="checkbox" class="form-check-input" />
-                                </label>
-                              </div>
-                            </td>
-                            <td>
-                              <img src="assets/images/faces/face3.jpg" alt="image" />
-                              <span class="pl-2">Peter Gill</span>
-                            </td>
-                            <td>02312</td>
-                            <td>$14,500</td>
-                            <td>Development</td>
-                            <td>Online Payment</td>
-                            <td>04 Dec 2019</td>
-                            <td>
-                              <div class="badge badge-outline-success">Approved</div>
+                              <div class="badge badge-warning">Canadian Pop</div>
                             </td>
                           </tr>
                           <tr>
@@ -585,16 +550,16 @@
                               </div>
                             </td>
                             <td>
-                              <img src="assets/images/faces/face4.jpg" alt="image" />
-                              <span class="pl-2">Sallie Reyes</span>
+                              <img src="assets/images/faces/face1.jpg" alt="image" />
+                              <span class="pl-2"><a href="pages/tables//basic-table.html#troye">Troye Sivan</a></span>
                             </td>
-                            <td>02312</td>
-                            <td>$14,500</td>
-                            <td>Website</td>
-                            <td>Credit card</td>
-                            <td>04 Dec 2019</td>
+                            <td>Canada</td>
+                            <td class="text-success"> 80.00% <i class="mdi mdi-arrow-up"></i></td>
+                            <td>Artist</td>
+                            <td>8976825</td>
+                            <td>25 Jun 21</td>
                             <td>
-                              <div class="badge badge-outline-success">Approved</div>
+                              <div class="badge badge-warning">Canadian Pop</div>
                             </td>
                           </tr>
                         </tbody>
@@ -822,6 +787,17 @@
     <script src="assets/js/misc.js"></script>
     <script src="assets/js/settings.js"></script>
     <script src="assets/js/todolist.js"></script>
+    <!-- JavaScript Lev -->
+    <!-- Scripts -->
+    <script type="text/javascript" src="index-table/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="index-table/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="index-table/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="index-table/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="index-table/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="index-table/js/jszip.min.js"></script>
+    <script type="text/javascript" src="index-table/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="index-table/js/substable.js"></script>
+    <!-- End JavaScript Lev -->
     <!-- endinject -->
     <!-- Custom js for this page -->
     <script src="assets/js/dashboard.js"></script>
