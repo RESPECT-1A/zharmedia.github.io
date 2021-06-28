@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>R E S P E C T</title>
+      <!-- plugins:css -->
+      <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+      <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+      <!-- endinject -->
+      <!-- Plugin css for this page -->
+      <!-- End plugin css for this page -->
+      <!-- inject:css -->
+      <!-- endinject -->
+      <!-- Layout styles -->
+      <link rel="stylesheet" href="../../assets/css/style.css">
+      <!-- End layout styles -->
+      <!-- Styles - Untuk CSV dll -->
+      <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+      <link rel="stylesheet" type="text/css" href="css/dripicons.css" />
+      <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/buttons.dataTables.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/styles.css" />
+      <!-- End of CSV -->
+      <link rel="shortcut icon" href="../../assets/images/favicon.png" />
+   </head>
+   <body>
+      <div class="container-scroller">
+         <!-- partial:partials/_sidebar.html -->
+         <nav class="sidebar sidebar-offcanvas" id="sidebar">
+            <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+               <a class="sidebar-brand brand-logo" href="https://respect-1a.github.io/zharmedia.github.io/" target="_blank"style="color:white"><i class="mdi mdi-dns"></i>&nbsp;R E S P E C T</a>
+               <a class="sidebar-brand brand-logo-mini" href="#" style="color:white"><i class="mdi mdi-dns"></i></a>
+            </div>
+            <ul class="nav">
+            <li class="nav-item menu-items">
+               <a class="nav-link" href="../../index1.html">
+               <span class="menu-icon">
+               <i class="mdi mdi-speedometer"></i>
+               </span>
+               <span class="menu-title">Dashboard</span>
+               </a>
+            </li>
+            <li class="nav-item menu-items">
+               <a class="nav-link" href="../../pages/tables/basic-table.html">
+               <span class="menu-icon">
+               <i class="mdi mdi-table-large"></i>
+               </span>
+               <span class="menu-title">Tables</span>
+               </a>
+            </li>
+            <li class="nav-item menu-items">
+               <a class="nav-link" href="../../pages/charts/chartjs.html">
+               <span class="menu-icon">
+               <i class="mdi mdi-chart-bar"></i>
+               </span>
+               <span class="menu-title">Charts</span>
+               </a>
+            </li>
+            <li class="nav-item menu-items">
+               <a class="nav-link" href="../../pages/forms/basic_elements.html">
+               <span class="menu-icon">
+               <i class="mdi mdi-playlist-play"></i>
+               </span>
+               <span class="menu-title">Forms</span>
+               </a>
+            </li>
+            <li class="nav-item menu-items">
+               <a class="nav-link" href="https://respect-1a.github.io/zharmedia.github.io/">
+               <span class="menu-icon">
+               <i class="mdi mdi-file-document-box"></i>
+               </span>
+               <span class="menu-title">About us</span>
+               </a>
+            </li>
+         </nav>
+         <!-- partial -->
+         <div class="container-fluid page-body-wrapper">
+            <!-- partial:../../partials/_navbar.html -->
+            <nav class="navbar p-0 fixed-top d-flex flex-row">
+               <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+                  <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+               </div>
+               <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+                  <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                  <span class="mdi mdi-menu"></span>
+                  </button>
+                  <ul class="navbar-nav w-100">
+                     <li class="nav-item w-100">
+                        <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                           <input type="text" class="form-control" placeholder="Search..">
+                        </form>
+                     </li>
+                  </ul>
+                  <ul class="navbar-nav navbar-nav-right">
+                     <li class="nav-item dropdown d-none d-lg-block">
+                        <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href="https://respect-1a.github.io/zharmedia.github.io"> Visit Our Website </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
+                           <h6 class="p-3 mb-0">Anggota</h6>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item preview-item">
+                              <div class="preview-thumbnail">
+                                 <div class="preview-icon bg-dark rounded-circle">
+                                    <i class="mdi mdi-account text-primary"></i>
+                                 </div>
+                              </div>
+                              <div class="preview-item-content">
+                                 <p class="preview-subject ellipsis mb-1">M Azhar</p>
+                              </div>
+                           </a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item preview-item">
+                              <div class="preview-thumbnail">
+                                 <div class="preview-icon bg-dark rounded-circle">
+                                    <i class="mdi mdi-account text-danger"></i>
+                                 </div>
+                              </div>
+                              <div class="preview-item-content">
+                                 <p class="preview-subject ellipsis mb-1">Rifatia</p>
+                              </div>
+                           </a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item preview-item">
+                              <div class="preview-thumbnail">
+                                 <div class="preview-icon bg-dark rounded-circle">
+                                    <i class="mdi mdi-account text-danger"></i>
+                                 </div>
+                              </div>
+                              <div class="preview-item-content">
+                                 <p class="preview-subject ellipsis mb-1">Syelvie</p>
+                              </div>
+                           </a>
+                           <a class="dropdown-item preview-item">
+                              <div class="preview-thumbnail">
+                                 <div class="preview-icon bg-dark rounded-circle">
+                                    <i class="mdi mdi-account text-info"></i>
+                                 </div>
+                              </div>
+                              <div class="preview-item-content">
+                                 <p class="preview-subject ellipsis mb-1">Hasanah</p>
+                              </div>
+                           </a>
+                           <a class="dropdown-item preview-item">
+                              <div class="preview-thumbnail">
+                                 <div class="preview-icon bg-dark rounded-circle">
+                                    <i class="mdi mdi-account text-info"></i>
+                                 </div>
+                              </div>
+                              <div class="preview-item-content">
+                                 <p class="preview-subject ellipsis mb-1">Ryrie</p>
+                              </div>
+                           </a>
+                           <div class="dropdown-divider"></div>
+                           <p class="p-3 mb-0 text-center"><a href="https://respect-1a.github.io/zharmedia.github.io/">Our Websites</a></p>
+                        </div>
+                     </li>
+                     <li class="nav-item nav-settings d-none d-lg-block">
+                        <a class="nav-link" href="#">
+                        <i class="mdi mdi-view-grid"></i>
+                        </a>
+                     </li>
+                     <li class="nav-item dropdown border-left">
+                        <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                        <i class="mdi mdi-email"></i>
+                        <span class="count bg-success"></span>
+                        </a>
+                     </li>
+                     <li class="nav-item dropdown border-left">
+                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                        <i class="mdi mdi-bell"></i>
+                        <span class="count bg-danger"></span>
+                        </a>
+                     </li>
+                  </ul>
+                  <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                  <span class="mdi mdi-format-line-spacing"></span>
+                  </button>
+               </div>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+               <div class="content-wrapper">
+                  <div class="page-header">
+                     <h3 class="page-title"> Basic Tables </h3>
+                     <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                           <li class="breadcrumb-item"><a href="#">Tables</a></li>
+                           <li class="breadcrumb-item active" aria-current="page">Basic tables</li>
+                        </ol>
+                     </nav>
+                  </div>
+                  <div class="row">
+                     <!-- Start Rifatia -->
+                     <div class="col-lg-12 grid-margin stretch-card" id="carly">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Carly Rae Jepsen</h4>
+                              <p class="card-description">  Canadian artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table1">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3TGRqZ0a2l1LRblBkJoaDx">Call Me Maybe</a></td>
+                                          <td class=text-success>71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Kiss (Deluxe)</td>
+                                          <td>2012-01-01</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1kPpge9JDLpcj15qgrPbYX">Good Time</a></td>
+                                          <td class=text-success>78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>The Midsummer Station</td>
+                                          <td>2012-01-01</td>
+                                          <td><label class="badge badge-outline-info">D# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2hHLbkatPwOOmrNxTiD41L">I Really Like You</a></td>
+                                          <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Emotion (Deluxe Expanded Edition)</td>
+                                          <td>2015</td>
+                                          <td><label class="badge badge-outline-info">D minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6EJiVf7U0p1BBfs0qqeb1f">Cut To The Feeling</a></td>
+                                          <td class="text-danger">67.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Cut To The Feeling</td>
+                                          <td>2017-05-26</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7KW3XQV5Or5CF57MYVj5h4">Party For One</a></td>
+                                          <td class="text-danger">58.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Dedicated</td>
+                                          <td>2019-05-17</td>
+                                          <td><label class="badge badge-outline-danger">F# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0FS7B5o3QyvOD8eWjnbLoO">Run Away With Me</a></td>
+                                          <td class="text-danger">58.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Emotion (Deluxe Expanded Edition)</td>
+                                          <td>2015</td>
+                                          <td><label class="badge badge-outline-info">D# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/03o4HPzUwftpgAPNQSuaBS">This Love Isn't Crazy</a></td>
+                                          <td class="text-danger">57.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Dedicated Side B</td>
+                                          <td>2020-05-21</td>
+                                          <td><label class="badge badge-outline-danger">F# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3dtp75StyEK5XeKraS5KiI">Now That I Found You</a></td>
+                                          <td class="text-danger">56.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Dedicated</td>
+                                          <td>2019-05-17</td>
+                                          <td><label class="badge badge-outline-primary">C minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7kG3DPhoPsltuT0vxENI6E">Too Much</a></td>
+                                          <td class="text-danger">55.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Dedicated</td>
+                                          <td>2019-05-17</td>
+                                          <td><label class="badge badge-outline-danger">F major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1a0M7E4aQgkMkuwpjnX9Nr">OMG (with Carly Rae Jepsen)</a></td>
+                                          <td class="text-danger">48.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Gravity</td>
+                                          <td>2019-10-24</td>
+                                          <td><label class="badge badge-outline-danger">F# major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="zayn">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Zayn Malik</h4>
+                              <p class="card-description">  British artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table2">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3e7sxremeOE3wTySiOhGiP">Dusk Till Dawn (feat. Sia) - Radio Edit</a></td>
+                                          <td class=text-success>74.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Icarus Falls</td>
+                                          <td>2018-12-14</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0PDUDa38GO8lMxLCRc4lL1P">PILLOWTALK</a></td>
+                                          <td class=text-success>78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Mind Of Mine (Deluxe Edition)</td>
+                                          <td>2016-03-25</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/55n9yjI6qqXh5F2mYvUc2y">I Don’t Wanna Live Forever (Fifty Shades Darker)</a></td>
+                                          <td class=text-success>78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>reputation Stadium Tour Surprise Song Playlist</td>
+                                          <td>2017-11-09</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2ez6qvOTHKeI3ss80NGqnI">Trampoline (with ZAYN)</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Melt (Deluxe)</td>
+                                          <td>2019-12-27</td>
+                                          <td><label class="badge badge-outline-secondary">G minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6T6D9CIrHkALcHPafDFA6L">Vibez</a></td>
+                                          <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Nobody Is Listening</td>
+                                          <td>2021-01-15</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5CBnWXD8M7e8Q6WubFLtXy">Better</a></td>
+                                          <td class="text-danger">67.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Nobody Is Listening</td>
+                                          <td>2021-01-15</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6lvsJDZ7336YmpBzcNGhbe">fOoL fOr YoU</a></td>
+                                          <td class=text-success>70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Mind Of Mine (Deluxe Edition)</td>
+                                          <td>2016-03-25</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1iWHabUgUuuKLBa0TzTHfk">A Whole New World (End Title)</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>A Whole New World (End Title)</td>
+                                          <td>2019-05-09</td>
+                                          <td><label class="badge badge-outline-danger">F major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2cEmWBBlCfR9wWrY9JmTyt">Let Me</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Icarus Falls</td>
+                                          <td>2018-12-14</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1iJBSr7s7jYXzM8EGcbK5b">To Begin Again</a></td>
+                                          <td class="text-danger">67.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>To Begin Again</td>
+                                          <td>2021-03-17</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="fifth">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Fifth Harmony</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table3">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4tCtwWceOPWzenK2HAIJSb">Work from Home (feat. Ty Dolla $ign)</a></td>
+                                          <td class=text-success>78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>7/27 (Deluxe)</td>
+                                          <td>2016-05-27</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/41Fflg7qHiVOD6dEPvsCzO">Worth It (feat. Kid Ink)</a></td>
+                                          <td class=text-success>75.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Reflection (Deluxe)</td>
+                                          <td>2015-01-30</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2ACOWPLUe4A4KuQ5ioD2od">That's My Girl</a></td>
+                                          <td class=text-success>71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>7/27 (Deluxe)</td>
+                                          <td>2016-05-27</td>
+                                          <td><label class="badge badge-outline-danger">F minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1COvXs6jaykXC73h9OSBVM">BO$$</a></td>
+                                          <td class="text-danger">65.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Reflection (Deluxe)</td>
+                                          <td>2015-01-30</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7nD9nN3jord9wWcfW3Gkcm">All In My Head (Flex) (feat. Fetty Wap)</a></td>
+                                          <td class="text-danger">65.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>7/27 (Deluxe)</td>
+                                          <td>2016-05-27</td>
+                                          <td><label class="badge badge-outline-primary">C minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4rUTAkOU7OkVGeQuyQCHhF">Sledgehammer</a></td>
+                                          <td class="text-danger">64.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Reflection (Deluxe)</td>
+                                          <td>2015-01-30</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0gL0Xf8CN95HmgfEYYLRZV">Miss Movin On</a></td>
+                                          <td class="text-danger">64.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Miss Movin On</td>
+                                          <td>2013-07-16</td>
+                                          <td><label class="badge badge-outline-danger">F# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0hO71r8vbnrXSaXVrR9ptF">I'm In Love With a Monster</a></td>
+                                          <td class="text-danger">61.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>I'm In Love With a Monster</td>
+                                          <td>2015-08-14</td>
+                                          <td><label class="badge badge-outline-danger">F# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0XQHz5C8PknyrEhyrKxVKa">Down (feat. Gucci Mane)</a></td>
+                                          <td class="text-danger">60.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Fifth Harmony</td>
+                                          <td>2017-10-29</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5g6FCPU1r3C88vUsFtat16">Don't Say You Love Me</a></td>
+                                          <td class="text-danger">58.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Fifth Harmony</td>
+                                          <td>2017-10-29</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="selena">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Selena Gomez</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table4">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/079Ey5uxL04AKPQgVQwx5h">Baila Conmigo (with Rauw Alejandro)</a></td>
+                                          <td class=text-success>89.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Revelación - EP</td>
+                                          <td>2021-03-12</td>
+                                          <td><label class="badge badge-outline-danger">F major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4l0Mvzj72xxOpRrp6h8nHi">Lose You To Love Me</a></td>
+                                          <td class=text-success>82.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Rare</td>
+                                          <td>2020-01-10</td>
+                                          <td><label class="badge badge-outline-success">E major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0tBbt8CrmxbjRP0pueQkyU">Wolves</a></td>
+                                          <td class=text-success>80.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Wolves</td>
+                                          <td>2017-10-25</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4w8niZpiMy6qz1mntFA5uM">Taki Taki (with Selena Gomez, Ozuna, Cardi B)</a></td>
+                                          <td class=text-success>78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Taki Taki (with Selena Gomez, Ozuna, Cardi B)</td>
+                                          <td>2018-09-28</td>
+                                          <td><label class="badge badge-outline-warning">A minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3XoflnowYPFRPOh3uFvHcm">Selfish Love (with Selena Gomez)</a></td>
+                                          <td class=text-success>77.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Selfish Love (with Selena Gomez)</td>
+                                          <td>2021-03-04</td>
+                                          <td><label class="badge badge-outline-danger">F minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/12GEpg2XOPyqk03JZEZnJs">It Ain’t Me (with Selena Gomez)</a></td>
+                                          <td class="text-danger">66.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>It Ain't Me</td>
+                                          <td>2017-02-17</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/12GEpg2XOPyqk03JZEZnJs">Back To You - From 13 Reasons Why – Season 2 Soundtrack</a></td>
+                                          <td class=text-success>74.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Back To You (From 13 Reasons Why – Season 2 Soundtrack)</td>
+                                          <td>2018-05-10</td>
+                                          <td><label class="badge badge-outline-danger">F# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1v3lhrZEsOcazqR2QIyyRu">De Una Vez</a></td>
+                                          <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Revelación - EP</td>
+                                          <td>2021-03-12</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4JUPEh2DVSXFGExu4Uxevz">Ice Cream (with Selena Gomez)</a></td>
+                                          <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>THE ALBUM</td>
+                                          <td>2020-10-02</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4P6IttK2PRBjyr3fm0pP7t">Past Life (with Selena Gomez)</a></td>
+                                          <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Past Life (with Selena Gomez)</td>
+                                          <td>2020-06-26</td>
+                                          <td><label class="badge badge-outline-success">E major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="julia">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Julia Michaels</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table5">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2kJwzbxV2ppxnQoYw4GLBZ">If the World Was Ending - feat. Julia Michaels</a></td>
+                                          <td class=text-success>84.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>If the World Was Ending (feat. Julia Michaels)</td>
+                                          <td>2019-10-17</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5WtfUKzXircvW8l5aaVZWT">What A Time (feat. Niall Horan)</a></td>
+                                          <td class=text-success>82.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Inner Monologue Part 1</td>
+                                          <td>2019-01-24</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5M5IB1cNzJqbWFEUK4a1MD">Heaven</a></td>
+                                          <td class="text-danger">62.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Broad Stories</td>
+                                          <td>2021-06-04</td>
+                                          <td><label class="badge badge-outline-secondary">G minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0Ult84lvFuqNvbyXwyRQ58">I Miss You (feat. Julia Michaels)</a></td>
+                                          <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>What Is Love? (Deluxe Edition)</td>
+                                          <td>2018-11-30</td>
+                                          <td><label class="badge badge-outline-success">E major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0sm5R6MjXORjLcs1bulN6n">All Your Exes</a></td>
+                                          <td class="text-danger">64.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Not In Chronological Order</td>
+                                          <td>2021-04-30</td>
+                                          <td><label class="badge badge-outline-primary">C# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7vu0JkJh0ldukEYbTVcqd0">Issues</a></td>
+                                          <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Nervous System</td>
+                                          <td>2017-07-28</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4hkSiyO1zy1scfc4HWMGR4">Little Did I Know</a></td>
+                                          <td class=text-success>71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Not In Chronological Order</td>
+                                          <td>2021-04-30</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0JzDx938tQq0W1fQNtNdtF">Fingers Crossed (with Julia Michaels)</a></td>
+                                          <td class=text-success>70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Fingers Crossed (with Julia Michaels)</td>
+                                          <td>2021-06-11</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0WTN7om3lHG3yYMigwzBxl">There's No Way (feat. Julia Michaels)</a></td>
+                                          <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>There's No Way</td>
+                                          <td>2018-09-27</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0VFQC71dmUjuW5bU5Ewdmg">Heartless (with Julia Michaels Morgan Wallen)</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Diplo Presents Thomas Wesley Chapter 1: Snake Oil</td>
+                                          <td>2020-05-29</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div> 
+                     <!-- End Rifatia -->
+                     <!-- Start Hasanah -->
+                     <div class="col-lg-12 grid-margin stretch-card" id="hailee">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">hailee</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                               <table class="table table-hover table-bordered" id="subscribers-table6">
+                                 <thead>
+                                    <tr>
+                                       <th title="Field #1">Song Name</th>
+                                       <th title="Field #2">Popularity</th>
+                                       <th title="Field #3">Album Name</th>
+                                       <th title="Field #4">Release Date</th>
+                                       <th title="Field #6">Key Mode</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                   <tr>
+                                       <td><a href="https://open.spotify.com/track/5lS7KHsdvkMJp8eASqZWzb">You're Such A</a></td>
+                                       <td class=text-success>78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>You're Such A</td>
+                                       <td>2017-09-08</td>
+                                       <td><label class="badge badge-outline-info">B major</label></td>
+                                   </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/4Ce37cRWvM1vIGGynKcs22">Starving</a></td>
+                                       <td class=text-success>77.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Starving</td>
+                                       <td>2016-07-22</td>
+                                       <td><label class="badge badge-outline-success">E major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/4LInPGD3DXBoJj0g0UGXir">Fragile</a></td>
+                                       <td class=text-success>75.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Fragile</td>
+                                       <td>2017-04-28</td>
+                                       <td><label class="badge badge-outline-primary">C minor</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/6nHBJFQz4gsK2Q6RIpBD0M">Hell Nos And Headphones</a></td>
+                                       <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Hell Nos And Headphones</td>
+                                       <td>2020-05-08</td>
+                                       <td><label class="badge badge-outline-warning">A# major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/36phXHOKx8rO7CMp2vNX4x">Love Myself</a></td>
+                                       <td class=text-success>71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>HLove Myself</td>
+                                       <td>2016-02-26</td>
+                                       <td><label class="badge badge-outline-primary">C minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/2EwaHWol7taG9A1xxfh1uB">Let It Go - James Bay Cover</a></td>
+                                        <td class=text-success>71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>Let It Go - James Bay Cover</td>
+                                        <td>2020-05-08</td>
+                                        <td><label class="badge badge-outline-primary">C# major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/5UKnNifxZslmxcnHgY2jEs">Love Myself - Acoustic</a></td>
+                                        <td class=text-success>70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>HAIZ</td>
+                                        <td>2018-02-09</td>
+                                        <td><label class="badge badge-outline-primary">C minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/693NRhFgOz14qSDDEx9xs7">Hell Nos And Headphones - Acoustic</a></td>
+                                        <td class="text-danger">65.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Hell Nos And Headphones - Acoustic</td>
+                                        <td>2016-02-26</td>
+                                        <td><label class="badge badge-outline-warning">A# major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/2qxaR31Te4xDR2yO6LqM8z">Rock Bottom</a></td>
+                                        <td class="text-danger">64.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>HAIZ</td>
+                                        <td>2016-02-26</td>
+                                        <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/6W5RmgWh46p9RQ4LDezHKE">Flashlight (Sweet Life Mix) - From "Pitch Perfect 2" Soundtrack</a></td>
+                                        <td class="text-danger">62.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Pitch Perfect 2 - Special Edition (Original Motion Picture Soundtrack)</td>
+                                        <td>2015-05-12</td>
+                                        <td><label class="badge badge-outline-warning">D# major</label></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 grid-margin stretch-card" id="halsey">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">halsey</h4>
+                              <p class="card-description">  United States of America artist</p>
+                              <div class="table-responsive">
+                               <table class="table table-hover table-bordered" id="subscribers-table7">
+                                 <thead>
+                                    <tr>
+                                       <th title="Field #1">Song Name</th>
+                                       <th title="Field #2">Popularity</th>
+                                       <th title="Field #3">Album Name</th>
+                                       <th title="Field #4">Release Date</th>
+                                       <th title="Field #6">Key Mode</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                   <tr>
+                                       <td><a href="https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw">Closer</a></td>
+                                       <td class=text-success>85.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Closer</td>
+                                       <td>2016-07-29</td>
+                                       <td><label class="badge badge-outline-secondary">G major</label></td>
+                                   </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/2HYeH2mVSlAYbstxFbpHnw">Coming Down</a></td>
+                                       <td class=text-success>84.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>BADLANDS</td>
+                                       <td>2015-08-28</td>
+                                       <td><label class="badge badge-outline-danger">F# minor</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/4NOvnJymuGjY5APQQMNvSo">Control</a></td>
+                                       <td class=text-success>82.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>BADLANDS</td>
+                                       <td>2015-08-28</td>
+                                       <td><label class="badge badge-outline-success">E minor</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/6FZDfxM3a3UCqtzo5pxSLZ">Without Me</a></td>
+                                       <td class=text-success>77.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Manic</td>
+                                       <td>2020-01-17</td>
+                                       <td><label class="badge badge-outline-danger">F# major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/6zQq3TrWnilO8SR1fgvTeD">Strange Love</a></td>
+                                       <td class=text-success>80.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>BADLANDS (Deluxe)</td>
+                                       <td>2015-08-28</td>
+                                       <td><label class="badge badge-outline-info">B major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/2CxGUEb19MGSgyYzOcpuhk">Alone</a></td>
+                                        <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>hopeless fountain kingdom</td>
+                                        <td>22017-06-02</td>
+                                        <td><label class="badge badge-outline-info">D minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/7lidXGPXPYLNThITAOTlkK">You should be sad</a></td>
+                                        <td class=text-success>77.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>Manic</td>
+                                        <td>2020-01-17</td>
+                                        <td><label class="badge badge-outline-info">D major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/4HO2KO18358OqYCRbS9SGF">Coming Down</a></td>
+                                        <td class=text-success>76.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>BADLANDS (Live From Webster Hall)</td>
+                                        <td>2020-08-28</td>
+                                        <td><label class="badge badge-outline-danger">F# minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/44n97yHySt0Z9rqPaXgjCK">Sorry</a></td>
+                                        <td class=text-success>76.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>hopeless fountain kingdom (Deluxe)</td>
+                                        <td>2017-06-02</td>
+                                        <td><label class="badge badge-outline-danger">F minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/26auE2wH2FdGQWZf8aQ7G4">Castle</a></td>
+                                        <td class="text-danger">76.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>BADLANDS (Live From Webster Hall)</td>
+                                        <td>2020-08-28</td>
+                                        <td><label class="badge badge-outline-secondary">G minor</label></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 grid-margin stretch-card" id="kesya">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Kesha</h4>
+                              <p class="card-description">  United States of America artist</p>
+                              <div class="table-responsive">
+                               <table class="table table-hover table-bordered" id="subscribers-table8">
+                                 <thead>
+                                    <tr>
+                                       <th title="Field #1">Song Name</th>
+                                       <th title="Field #2">Popularity</th>
+                                       <th title="Field #3">Album Name</th>
+                                       <th title="Field #4">Release Date</th>
+                                       <th title="Field #6">Key Mode</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                   <tr>
+                                       <td><a href="https://open.spotify.com/track/0HPD5WQqrq7wPWR7P7Dw1i">TiK ToK</a></td>
+                                       <td class=text-success>82.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Animal (Expanded Edition)</td>
+                                       <td>2010-01-01</td>
+                                       <td><label class="badge badge-outline-info">D minor</label></td>
+                                   </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/7EQGXaVSyEDsCWKmUcfpLk">Die Young</a></td>
+                                       <td class=text-success>78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Warrior (Expanded Edition)</td>
+                                       <td>2012-11-30</td>
+                                       <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/0jdny0dhgjUwoIp5GkqEaA">Praying</a></td>
+                                       <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Rainbow</td>
+                                       <td>2017-08-11</td>
+                                       <td><label class="badge badge-outline-warning">A# major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/3LUWWox8YYykohBbHUrrxd">We R Who We R</a></td>
+                                       <td class=text-success>73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Cannibal (Expanded Edition)</td>
+                                       <td>2010-11-19</td>
+                                       <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/51CeiXQgEq3YD4D6v3GjfB">Tonight</a></td>
+                                       <td class=text-success>71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>High Road</td>
+                                       <td>2020-01-31</td>
+                                       <td><label class="badge badge-outline-danger">F major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/6vc2Jq2vaGu8z326kSrw92">Your Love Is My Drug</a></td>
+                                        <td class=text-success>70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>Animal (Expanded Edition)</td>
+                                        <td>2010-01-01</td>
+                                        <td><label class="badge badge-outline-warning">A# minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/0WCiI0ddWiu5F2kSHgfw5S">Take It Off</a></td>
+                                        <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>Animal (Expanded Edition)</td>
+                                        <td>2010-01-01</td>
+                                        <td><label class="badge badge-outline-danger">F minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/3JTMWdhcJPiegDSe7SvZS3">Cannibal</a></td>
+                                        <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                        <td>Cannibal (Expanded Edition)</td>
+                                        <td>2010-11-19</td>
+                                        <td><label class="badge badge-outline-primary">C# major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/1kJtfldK9F7XmsSiSNlbth">Woman (feat. The Dap-Kings Horns)</a></td>
+                                        <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Rainbow</td>
+                                        <td>2017-08-11</td>
+                                        <td><label class="badge badge-outline-danger">F minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/3pYDZTJM2tVBUhIRifWVzI">Blow</a></td>
+                                        <td class="text-danger">65.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Cannibal (Expanded Edition)</td>
+                                        <td>2010-11-19</td>
+                                        <td><label class="badge badge-outline-warning">A minor</label></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 grid-margin stretch-card" id="kesya">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">kelly</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                               <table class="table table-hover table-bordered" id="subscribers-table9">
+                                 <thead>
+                                    <tr>
+                                       <th title="Field #1">Song Name</th>
+                                       <th title="Field #2">Popularity</th>
+                                       <th title="Field #3">Album Name</th>
+                                       <th title="Field #4">Release Date</th>
+                                       <th title="Field #6">Key Mode</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                   <tr>
+                                       <td><a href="https://open.spotify.com/track/6D60klaHqbCl9ySc8VcRss">Stronger (What Doesn't Kill You)</a></td>
+                                       <td class="text-danger">66.00% <i class="mdi mdi-arrow-down"></i></td>
+                                       <td>Stronger (Deluxe Version)</td>
+                                       <td>2011-10-24</td>
+                                       <td><label class="badge badge-outline-primary">C major</label></td>
+                                   </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/3f3omU8n47Mqyab5nCaGyT">Because of You</a></td>
+                                       <td class=text-success>70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Breakaway</td>
+                                       <td>2004-01-17</td>
+                                       <td><label class="badge badge-outline-danger">F minor</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/3xrn9i8zhNZsTtcoWgQEAd">Since U Been Gone</a></td>
+                                       <td class=text-success>72.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Breakaway</td>
+                                       <td>2004-01-17</td>
+                                       <td><label class="badge badge-outline-primary">C major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/2QEjC670wRUC9OE9kOnPB3">A Minute (Intro)</a></td>
+                                       <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Meaning of Life</td>
+                                       <td>2017-10-27</td>
+                                       <td><label class="badge badge-outline-secondary">G minor</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/4Dm32oO01YpIubCHaAtKkN">My Life Would Suck Without You</a></td>
+                                       <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                       <td>All I Ever Wanted</td>
+                                       <td>2009-03-06</td>
+                                       <td><label class="badge badge-outline-warning">A major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/7FC9Lng8iXU081lbigu8m8">Heartbeat Song</a></td>
+                                        <td class="text-danger">67.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Piece By Piece (Deluxe Version)</td>
+                                        <td>2015-02-27</td>
+                                        <td><label class="badge badge-outline-warning">F# major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/61Qhe2mHSLhUE04QeK4lkD">Breakaway</a></td>
+                                        <td class="text-danger">64.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Breakaway</td>
+                                        <td>2004-01-17</td>
+                                        <td><label class="badge badge-outline-primary">C major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/70on8632PmtkPhed7jLKWN">Someone</a></td>
+                                        <td class="text-danger">63.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Piece By Piece (Deluxe Version)</td>
+                                        <td>2016-03-04</td>
+                                        <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/3KbFtYPyVP6C7BQVgH2cCf">Piece by Piece - Idol Version</a></td>
+                                        <td class="text-danger">63.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Piece By Piece (Deluxe Version)</td>
+                                        <td>2016-03-04</td>
+                                        <td><label class="badge badge-outline-primary">C# major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/0AKAxdNkwq9ZxRdW1DN9zW">Behind These Hazel Eyes</a></td>
+                                        <td class="text-danger">60.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Breakaway</td>
+                                        <td>2004-01-17</td>
+                                        <td><label class="badge badge-outline-warning">A major</label></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 grid-margin stretch-card" id="hannah">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">hannah</h4>
+                              <p class="card-description">  United States of America artist</p>
+                              <div class="table-responsive">
+                               <table class="table table-hover table-bordered" id="subscribers-table10">
+                                 <thead>
+                                    <tr>
+                                       <th title="Field #1">Song Name</th>
+                                       <th title="Field #2">Popularity</th>
+                                       <th title="Field #3">Album Name</th>
+                                       <th title="Field #4">Release Date</th>
+                                       <th title="Field #6">Key Mode</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                   <tr>
+                                       <td><a href="https://open.spotify.com/track/60c0p6GGnuwdKcQnmuM2zC">I'll Always Remember You</a></td>
+                                       <td class=text-success>69.00% <i class="mdi mdi-arrow-up"></i></td>
+                                       <td>Hannah Montana Forever</td>
+                                       <td>2010-01-01</td>
+                                       <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                   </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/07HPV6hzecJmMJwsIX8YVU">He Could Be the One</a></td>
+                                       <td class="text-danger">67.00% <i class="mdi mdi-arrow-down"></i></td>
+                                       <td>Hannah Montana 3</td>
+                                       <td>2009-01-01</td>
+                                       <td><label class="badge badge-outline-success">E major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/1y6Y28gA3mNHSs7RDLrDKs">Gonna Get This</a></td>
+                                       <td class="text-danger">66.00% <i class="mdi mdi-arrow-down"></i></td>
+                                       <td>Hannah Montana Forever</td>
+                                       <td>2010-01-01</td>
+                                       <td><label class="badge badge-outline-primary">C major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/6Z0F3Mqj7tq1CBZo5qMlUg">The Best of Both Worlds - From "Hannah Montana"/Soundtrack Version</a></td>
+                                       <td class="text-danger">63.00% <i class="mdi mdi-arrow-down"></i></td>
+                                       <td>Hannah Montana</td>
+                                       <td>2010-01-01</td>
+                                       <td><label class="badge badge-outline-primary">C# major</label></td>
+                                    </tr>
+                                    <tr>
+                                       <td><a href="https://open.spotify.com/track/2kIq7Oq6YNfdUuTrmPC4w1">Ordinary Girl</a></td>
+                                       <td class="text-danger">72.00% <i class="mdi mdi-arrow-down"></i></td>
+                                       <td>Hannah Montana Forever</td>
+                                       <td>2010-01-01</td>
+                                       <td><label class="badge badge-outline-secondary">G major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/7c223RltkvhN8wrxIqspM5">Nobody's Perfect</a></td>
+                                        <td class="text-danger">60.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Hannah Montana 2 (Original Soundtrack)</td>
+                                        <td>2007-06-26</td>
+                                        <td><label class="badge badge-outline-warning">A# minor</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/6KN9atd3DRhmSRWeCSKkkL">Rock Star</a></td>
+                                        <td class="text-danger">57.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Hannah Montana 2 (Original Soundtrack)</td>
+                                        <td>2007-06-26</td>
+                                        <td><label class="badge badge-outline-info">D major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/1y6Y28gA3mNHSs7RDLrDKs">Gonna Get This</a></td>
+                                        <td class="text-danger">55.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Hannah Montana Forever</td>
+                                        <td>2010-01-01</td>
+                                        <td><label class="badge badge-outline-primary">C major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/1kJtfldK9F7XmsSiSNlbth">I Wanna Know You</a></td>
+                                        <td class="text-danger">55.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Hannah Montana 3</td>
+                                        <td>2009-01-01</td>
+                                        <td><label class="badge badge-outline-danger">F major</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com/track/6E1uYKEIUmjiLFsKEYsgOe">One In a Million</a></td>
+                                        <td class="text-danger">53.00% <i class="mdi mdi-arrow-down"></i></td>
+                                        <td>Hannah Montana 2 (Original Soundtrack)</td>
+                                        <td>2007-06-26</td>
+                                        <td><label class="badge badge-outline-info">B major</label></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              
+                              </div>
+                           </div>
+                        </div>
+                      </div>                      
+                     <!-- End Hasanah -->
+                     <!-- Start Ryrie -->
+                     <div class="col-lg-12 grid-margin stretch-card" id="troye">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Troye Sivan</h4>
+                              <p class="card-description">  Australian artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table11">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2cc8Sw1OnCuA5bV8nqWqpE">Bloom</a></td>
+                                          <td class="text-success">85.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bloom</td>
+                                          <td>2021-04-16</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3afkJSKX0EAMsJXTZnDXXJ">Lucky Strike</a></td>
+                                          <td class="text-success">79.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bloom</td>
+                                          <td>2018-03-16</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4vjpLMyL3ZO6aphdYr8XYw">Seventeen</a></td>
+                                          <td class="text-success">79.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bloom</td>
+                                          <td>2020-03-06</td>
+                                          <td><label class="badge badge-outline-success">E major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4vjpLMyL3ZO6aphdYr8XYw">Animal</a></td>
+                                          <td class="text-success">74.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bloom</td>
+                                          <td>2020-12-10</td>
+                                          <td><label class="badge badge-outline-success">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1cOyWWUr3oXJIxY0AjJEx9">YOUTH</a></td>
+                                          <td class="text-danger">66.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Blue Neighbourhood (Deluxe)</td>
+                                          <td>2015-12-04</td>
+                                          <td><label class="badge badge-outline-success">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6jA8HL9i4QGzsj6fjoxp8Y">WILD</a></td>
+                                          <td class="text-success">71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Blue Neighbourhood (Deluxe)</td>
+                                          <td>2017-05-26</td>
+                                          <td><label class="badge badge-outline-primary">C minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2NjO87HyT80fsgejd3PLYW">Dance To This (feat. Ariana Grande)</a></td>
+                                          <td class="text-success">70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bloom</td>
+                                          <td>2018-08-31</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4NiehSBQthimPzRsVeOgCT">My My My!</a></td>
+                                          <td class="text-success">70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bloom</td>
+                                          <td>2018-08-31</td>
+                                          <td><label class="badge badge-outline-primary">C# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3gzIK2dGSVvPBiohsTwEWZ">BITE</a></td>
+                                          <td class="text-danger">66.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Blue Neighbourhood (Deluxe)</td>
+                                          <td>2020-08-21</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5bbtc9t6FcerXp732H2XNu">FOOLS</a></td>
+                                          <td class="text-danger">65.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Blue Neighbourhood (Deluxe)</td>
+                                          <td>2021-05-28</td>
+                                          <td><label class="badge badge-outline-warning">A# major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="demi">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Demi Lovato</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table12">
+                                    <thead>
+                                        <tr>
+                                            <th title="Field #1">Song Name</th>
+                                            <th title="Field #2">Popularity</th>
+                                            <th title="Field #3">Album Name</th>
+                                            <th title="Field #4">Release Date</th>
+                                            <th title="Field #6">Key Mode</th>
+                                         </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2h9TDNEXRhcDIV3fsoEVq9">What Other People Say</a></td>
+                                          <td class="text-success">80.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>What Other People Say</td>
+                                          <td>2021-02-04</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4yyX2Iu4xJjW9xMvBZKSBi">Met Him Last Night</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Dancing With The Devil…The Art of Starting Over (Expanded Edition)</td>
+                                          <td>2021-04-01</td>
+                                          <td><label class="badge badge-outline-success">E minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1V6gIisPpYqgFeWbMLI0bA">Heart Attack</a></td>
+                                          <td class="text-success">79.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Demi</td>
+                                          <td>2013-01-01</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0zzVTGyRrWpQu8Fr28NRAv">OK Not To Be OK</a></td>
+                                          <td class="text-success">78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>OK Not To Be OK</td>
+                                          <td>2020-09-10</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0yvPEnB032fojLfVluFjUv">Sorry Not Sorry</a></td>
+                                          <td class="text-success">77.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Tell Me You Love Me</td>
+                                          <td>2017-09-29</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3NuK5xMlSlB6K2Qp16zf3h">Solo (feat. Demi Lovato)</a></td>
+                                          <td class="text-success">71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>What Is Love? (Deluxe Edition)</td>
+                                          <td>2018-11-30</td>
+                                          <td><label class="badge badge-outline-primary">C# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/50DMJJpAeQv4fIpxZvQz2e">Anyone</a></td>
+                                          <td class="text-success">73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Dancing With The Devil…The Art of Starting Over (Deluxe Edition)</td>
+                                          <td>2020-12-04</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3by8IfnW9dZ2t4pZw1WVxz">Stone Cold</a></td>
+                                          <td class="text-success">73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Confident</td>
+                                          <td>2015-01-01</td>
+                                          <td><label class="badge badge-outline-danger">F minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0mlAOSILGRys2IbvyOT5VJ">ICU (Madison&#39;s Lullabye)</a></td>
+                                          <td class="text-success">73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Dancing With The Devil…The Art of Starting Over (Deluxe Edition)</td>
+                                          <td>2019-02-01</td>
+                                          <td><label class="badge badge-outline-danger">F major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3DXXKDbbZKyAZfNb96ST3q">Confident</a></td>
+                                          <td class="text-success">73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Confident</td>
+                                          <td>2015-01-01</td>
+                                          <td><label class="badge badge-outline-info">D# major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="alessia">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Alessia Cara</h4>
+                              <p class="card-description">  Canadian artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table13">
+                                    <thead>
+                                        <tr>
+                                            <th title="Field #1">Song Name</th>
+                                            <th title="Field #2">Popularity</th>
+                                            <th title="Field #3">Album Name</th>
+                                            <th title="Field #4">Release Date</th>
+                                            <th title="Field #6">Key Mode</th>
+                                         </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0prNGof3XqfTvNDxHonvdK">Scars To Your Beautiful</a></td>
+                                          <td class="text-success">73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Know-It-All (Deluxe)</td>
+                                          <td>2015-11-13</td>
+                                          <td><label class="badge badge-outline-warning">A minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4WzhjxvLP95y7AMDy0Atwb">Out Of Love</a></td>
+                                          <td class="text-success">77.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>The Pains Of Growing</td>
+                                          <td>2018-11-30</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>                   
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6uBhi9gBXWjanegOb2Phh0">Summertime - Live Off The Floor</a></td>
+                                          <td class="text-success">77.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>This Summer: Live Off The Floor</td>
+                                          <td>2017-02-23</td>
+                                          <td><label class="badge badge-outline-primary">C minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2JtSnwYNKOphDrshYL8n4p">Growing Pains</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>The Pains Of Growing</td>
+                                          <td>2019-04-24</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1wYZZtamWTQAoj8B812uKQ">Here</a></td>
+                                          <td class="text-danger">66.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Know-It-All (Deluxe)</td>
+                                          <td>2015-11-13</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1ehPJRt49h6N0LoryqKZXq">How Far I&#39;ll Go - Alessia Cara Version</a></td>
+                                          <td class="text-danger">67.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Moana (Original Motion Picture Soundtrack/Deluxe Edition)</td>
+                                          <td>2016-11-18</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2Fn4gZI3MAeWTiv7cSVxZQ">Stars</a></td>
+                                          <td class="text-danger">66.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Know-It-All (Deluxe)</td>
+                                          <td>2019-11-01</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/13QIjo2iGBgl56mNDjJOet">Stars</a></td>
+                                          <td class="text-danger">64.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>I Choose (From The Netflix Original Film The Willoughbys)</td>
+                                          <td>2020-04-03</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/74nReXHbAko0DLmBniJest">Ready</a></td>
+                                          <td class="text-danger">64.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>This Summer</td>
+                                          <td>2019-09-06</td>
+                                          <td><label class="badge badge-outline-primary">C minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5NRl32BO29q8xtWFvOlHZE">River Of Tears</a></td>
+                                          <td class="text-danger">61.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Know-It-All (Deluxe)</td>
+                                          <td>2015-11-13</td>
+                                          <td><label class="badge badge-outline-danger">F# major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="lorde">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Lorde</h4>
+                              <p class="card-description">  New Zealand artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table14">
+                                    <thead>
+                                        <tr>
+                                            <th title="Field #1">Song Name</th>
+                                            <th title="Field #2">Popularity</th>
+                                            <th title="Field #3">Album Name</th>
+                                            <th title="Field #4">Release Date</th>
+                                            <th title="Field #6">Key Mode</th>
+                                         </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3KdoeNlEN0BoAKWzaRLNZa">Sober</a></td>
+                                          <td class="text-success">86.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Melodrama</td>
+                                          <td>2021-06-10</td>
+                                          <td><label class="badge badge-outline-danger">F# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0TEekvXTomKt3hdXDZxxeW">Ribs</a></td>
+                                          <td class="text-success">78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Pure Heroine (Extended)</td>
+                                          <td>2013-01-01</td>
+                                          <td><label class="badge badge-outline-success">E major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7BFI9QZPQKgYuR2HhDgwbG">Ribs</a></td>
+                                          <td class="text-success">74.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Pure Heroine (Extended)</td>
+                                          <td>2013-01-01</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6Kkt27YmFyIFrcX3QXFi2o">Liability</a></td>
+                                          <td class="text-success">75.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Melodrama</td>
+                                          <td>2017-06-16</td>
+                                          <td><label class="badge badge-outline-secondary">A# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6ie2Bw3xLj2JcGowOlcMhb">Green Light</a></td>
+                                          <td class="text-success">75.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Melodrama</td>
+                                          <td>2017-06-16</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/15jRg8Ejs7X3JEHw38TSN3">Team</a></td>
+                                          <td class="text-success">72.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Pure Heroine (Extended)</td>
+                                          <td>2013-01-01</td>
+                                          <td><label class="badge badge-outline-danger">F# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7ARveOiD31w2Nq0n5FsSf8">Perfect Places</a></td>
+                                          <td class="text-success">70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Melodrama</td>
+                                          <td>2017-06-16</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2yrJ1jWo3HLksJFUqUsZE4">The Love Club</a></td>
+                                          <td class="text-danger">69.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Pure Heroine (Extended)</td>
+                                          <td>2013-01-01</td>
+                                          <td><label class="badge badge-outline-danger">F major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6K8VQ84MqhsoakN5MjrnVR">Supercut</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Melodrama</td>
+                                          <td>2017-06-16</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5u64RlrnvvbtNh6R0EMh6o">Homemade Dynamite - REMIX</a></td>
+                                          <td class="text-danger">68.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Melodrama</td>
+                                          <td>2017-11-10</td>
+                                          <td><label class="badge badge-outline-primary">C minor</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="camilla">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Camilla Cabello</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table15">
+                                    <thead>
+                                        <tr>
+                                            <th title="Field #1">Song Name</th>
+                                            <th title="Field #2">Popularity</th>
+                                            <th title="Field #3">Album Name</th>
+                                            <th title="Field #4">Release Date</th>
+                                            <th title="Field #6">Key Mode</th>
+                                         </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6v3KW9xbzN5yKLt9YKDYA2">Señorita</a></td>
+                                          <td class=text-success>80.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Shawn Mendes (Deluxe)</td>
+                                          <td>2019-06-19</td>
+                                          <td><label class="badge badge-outline-secondary">A minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1rfofaqEpACxVEHIZBJe6W">Havana</a></td>
+                                          <td class=text-success>81.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Camila</td>
+                                          <td>2018-01-12</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3yOlyBJuViE2YSGn3nVE1K">My Oh My</a></td>
+                                          <td class="text-success">79.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Romance</td>
+                                          <td>2019-12-06</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7DoNtK2gVFRwJh0hkHe5wQ">Easy</a></td>
+                                          <td class="text-success">78.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Romance</td>
+                                          <td>2019-07-12</td>
+                                          <td><label class="badge badge-outline-succes">E minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7cHje4KLujM18aBSLvaySE">This Love</a></td>
+                                          <td class="text-success">75.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Romance</td>
+                                          <td>2018-08-02</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0Q2kFlgnqusKAqCDpCKAIY">Bad Kind of Butterflies</a></td>
+                                          <td class="text-success">73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Romance</td>
+                                          <td>2017-05-12</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4eWQlBRaTjPPUlzacqEeoQ">Never Be the Same</a></td>
+                                          <td class="text-success">73.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Camila</td>
+                                          <td>2018-01-12</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                          <td>C major</td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3iq9nhbI8fcnNamxMft1uv">Real Friends</a></td>
+                                          <td class="text-success">71.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Camila</td>
+                                          <td>2015-04-14</td>
+                                          <td><label class="badge badge-outline-info">D# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/073ILU1C3APNRGF66VhtyA">Liar</a></td>
+                                          <td class="text-danger">69.00% <i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Romance</td>
+                                          <td>2019-12-06</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2gxqozTaq2NYylvS8jd57G">Into it</a></td>
+                                          <td class="text-success">70.00% <i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Camila</td>
+                                          <td>2017-05-18</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Ryrie -->
+                     <!-- Start Syelvie -->
+                     <div class="col-lg-12 grid-margin stretch-card" id="miley">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Miley Cyrus</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table16">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1EHUQesfVKwbthtNcpBi9g">WITHOUT YOU (with Miley Cyrus)</a></td>
+                                          <td class=text-success>84.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>WITHOUT YOU (with Miley Cyrus)</td>
+                                          <td>2021-04-30</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2Oycxb8QbPkpHTo8ZrmG0B">Prisoner (feat. Dua Lipa)</a></td>
+                                          <td class=text-success>79.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Plastic Hearts</td>
+                                          <td>2020-11-27</td>
+                                          <td><label class="badge badge-outline-info">D# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1daDRI9ahBonbWD8YcxOIB">Angels Like You</a></td>
+                                          <td class=text-success>80.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Plastic Hearts</td>
+                                          <td>2020-11-27</td>
+                                          <td><label class="badge badge-outline-danger">F major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5Q0Nhxo0l2bP3pNjpGJwV1">Party In The U.S.A.</a></td>
+                                          <td class=text-success>74.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>The Time Of Our Lives</td>
+                                          <td>2009-01-01</td>
+                                          <td><label class="badge badge-outline-warning">A# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4i2qxFEVVUi8yOYoxB8TCX">Midnight Sky</a></td>
+                                          <td class=text-success>75.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Plastic Hearts</td>
+                                          <td>2020-11-27</td>
+                                          <td><label class="badge badge-outline-success">E minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2y4lAQpi5VTNLu2ldeTdUH">We Can&#39;t Stop</a></td>
+                                          <td class=text-success>78.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bangerz (Deluxe Version)</td>
+                                          <td>2013-10-04</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2vwlzO0Qp8kfEtzTsCXfyE">Wrecking Ball</a></td>
+                                          <td class=text-success>76.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Bangerz (Deluxe Version)</td>
+                                          <td>2013-10-04</td>
+                                          <td><label class="badge badge-outline-danger">F major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6qCsKKS7Ol63SJW3LOIX5R">Plastic Hearts</a></td>
+                                          <td class=text-success>76.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Plastic Hearts</td>
+                                          <td>2020-11-27</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/02dRkCEc8Q5ch4TTcnLxOn">Nothing Breaks Like a Heart (feat. Miley Cyrus)</a></td>
+                                          <td class="text-danger">65.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Late Night Feelings</td>
+                                          <td>2019-06-21</td>
+                                          <td><label class="badge badge-outline-secondary">G minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1UZOjK1BwmwWU14Erba9CZ">Malibu</a></td>
+                                          <td class=text-success>75.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Younger Now</td>
+                                          <td>2017-09-29</td>
+                                          <td><label class="badge badge-outline-secondary">G# major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="niall">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Alessia Cara</h4>
+                              <p class="card-description">  Indonesian artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table17">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>><a href="https://open.spotify.com/track/5zqObw7wjBgL9TDiAymxPn">Our Song</a></td>
+                                          <td class=text-success>85.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Our Song</td>
+                                          <td>2021-05-21</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0qvzXomUDJVaUboy2wMfiS">This Town</a></td>
+                                          <td class=text-success>78.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Flicker (Deluxe)</td>
+                                          <td>2017-10-20</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7rpNuuoMbid56XkDsx2FjE">Black And White</a></td>
+                                          <td class=text-success>77.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Heartbreak Weather</td>
+                                          <td>2020-03-13</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2cOUlop2ZakjOKe4WinesN">Slow Hands</a></td>
+                                          <td class=text-success>77.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Flicker (Deluxe)</td>
+                                          <td>2017-10-20</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/39jXnbACjiaiTwwhsr5sY5">Too Much To Ask</a></td>
+                                          <td class=text-success>73.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Flicker (Deluxe)</td>
+                                          <td>2017-10-20</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0DrFTaAX2srXPkuag35djb">Nice To Meet Ya</a></td>
+                                          <td class="text-danger">66.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Heartbreak Weather</td>
+                                          <td>2020-03-13</td>
+                                          <td><label class="badge badge-outline-success">E minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5v6qYImm5k36GHlFxdEZyv">Moral of the Story (feat. Niall Horan) - Bonus Track</a></td>
+                                          <td class="text-danger">65.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Ashlyn</td>
+                                          <td>2021-05-07</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7LyBwug9tJgbaEzRCqtY78">Put A Little Love On Me</a></td>
+                                          <td class="text-danger">67.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Heartbreak Weather</td>
+                                          <td>2020-03-13</td>
+                                          <td><label class="badge badge-outline-warning">A# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5BpmwiKR6ns1EtfCQRpNUc">Flicker</a></td>
+                                          <td class="text-danger">69.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Flicker (Deluxe)</td>
+                                          <td>2017-10-20</td>
+                                          <td><label class="badge badge-outline-info">D# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2sGF7DBXvL2GjkbG606m1G">No Judgement</a></td>
+                                          <td class="text-danger">66.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Heartbreak Weather</td>
+                                          <td>2020-03-13</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="anne">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Anne-Marie</h4>
+                              <p class="card-description">  British artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table18">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5zqObw7wjBgL9TDiAymxPn">Our Song</a></td>
+                                          <td class=text-success>85.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Our Song</td>
+                                          <td>2021-05-21</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2BgEsaKNfHUdlh97KmvFyo">2002</a></td>
+                                          <td class=text-success>82.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Speak Your Mind (Deluxe)</td>
+                                          <td>2018-04-27</td>
+                                          <td><label class="badge badge-outline-primary">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/08bNPGLD8AhKpnnERrAc6G">FRIENDS</a></td>
+                                          <td class=text-success>81.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>FRIENDS</td>
+                                          <td>2018-02-09</td>
+                                          <td><label class="badge badge-outline-warning">A minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4I5bvu2KDsrCg0EWHIcvul">Don&#39;t Play</a></td>
+                                          <td class=text-success>76.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Don&#39;t Play</td>
+                                          <td>2021-01-15</td>
+                                          <td><label class="badge badge-outline-danger">F# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/09PGubKAMryhOWv1LHpCYz">fuck, i&#39;m lonely (with Anne-Marie)</a></td>
+                                          <td class=text-success>75.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>~how i&#39;m feeling~</td>
+                                          <td>2020-03-06</td>
+                                          <td><label class="badge badge-outline-warning"></label>A major</td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4YMApzzqCO31TPxPvgdHhh">Way Too Long</a></td>
+                                          <td class=text-success>74.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Way Too Long</td>
+                                          <td>2021-04-09</td>
+                                          <td><label class="badge badge-outline-info">D minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6mQLN3zRtAp6ovjusyYKrV">Rewrite The Stars (with James Arthur &amp; Anne-Marie)</a></td>
+                                          <td class=text-success>74.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Rewrite The Stars (with James Arthur &amp; Anne-Marie)</td>
+                                          <td>2018-10-25</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4YAg8h8WliHZlW5wuv8Jpk">To Be Young (feat. Doja Cat)</a></td>
+                                          <td class="text-danger">69.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>To Be Young (feat. Doja Cat)</td>
+                                          <td>2020-07-13</td>
+                                          <td><label class="badge badge-outline-warning">A major</label>></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0DC7Zs2qvAbNK1owWQ4mlL">Perfect to Me</a></td>
+                                          <td class="text-danger">68.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Perfect to Me</td>
+                                          <td>2018-11-02</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2GjQ5KNXggsIRpx5ZUj2zX">Her</a></td>
+                                          <td class="text-danger">67.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Her</td>
+                                          <td>2020-03-22</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="jonas">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Jonas Brothers</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table19">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4qu63nuBpdn0qHUHuObEj1">Leave Before You Love Me (with Jonas Brothers)</a></td>
+                                          <td class=text-success>87.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Leave Before You Love Me</td>
+                                          <td>2021-05-21</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/22vgEDb5hykfaTwLuskFGD">Sucker</a></td>
+                                          <td class=text-success>83.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Happiness Begins</td>
+                                          <td>2019-06-07</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4wNIkl5XGiAACjFBlDWuSd">What A Man Gotta Do</a></td>
+                                          <td class=text-success>78.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>What A Man Gotta Do</td>
+                                          <td>2020-01-17</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0DiDStADDVh3SvAsoJAFMk">Only Human</a></td>
+                                          <td class=text-success>75.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Happiness Begins</td>
+                                          <td>2019-06-07</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/77fvnWALKJR0ws1VUx09CY">X (with KAROL G)</a></td>
+                                          <td class=text-success>72.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>XV</td>
+                                          <td>2020-05-15</td>
+                                          <td><label class="badge badge-outline-success">E minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2VEsmoek0sol9MnJFyoG9e">Burnin&#39; Up</a></td>
+                                          <td class=text-success>70.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>A Little Bit Longer</td>
+                                          <td>2008-08-12</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6eXFl418w8hsxKcLgv1jwJ">Lonely (with Jonas Brothers)</a></td>
+                                          <td class=text-success>70.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Diplo Presents Thomas Wesley Chapter 1: Snake Oil</td>
+                                          <td>2020-05-27</td>
+                                          <td><label class="badge badge-outline-primary">C# major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/7yfi8B8opXjnRh4VZnOkz9">Cool</a></td>
+                                          <td class="text-danger">68.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Happiness Begins</td>
+                                          <td>2019-06-07</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/4zP7ADsgJgHGY6VzxbNp1z">Year 3000</a></td>
+                                          <td class="text-danger">67.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Music From Chasing Happiness</td>
+                                          <td>2019-05-09</td>
+                                          <td><label class="badge badge-outline-info">B major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3F8xLc6T4VvKH7I6wqVAN2">Lovebug</a></td>
+                                          <td class="text-danger">64.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>A Little Bit Longer</td>
+                                          <td>2008-08-12</td>
+                                          <td><label class="badge badge-outline-success">E major</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-12 grid-margin stretch-card" id="meghan">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title">Meghan Trainor</h4>
+                              <p class="card-description">  American artist</p>
+                              <div class="table-responsive">
+                                 <table class="table table-hover table-bordered" id="subscribers-table20">
+                                    <thead>
+                                       <tr>
+                                          <th title="Field #1">Song Name</th>
+                                          <th title="Field #2">Popularity</th>
+                                          <th title="Field #3">Album Name</th>
+                                          <th title="Field #4">Release Date</th>
+                                          <th title="Field #6">Key Mode</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/2YlZnw2ikdb837oKMKjBkW">Like I&#39;m Gonna Lose You (feat. John Legend)</a></td>
+                                          <td class=text-success>79.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Title (Deluxe)</td>
+                                          <td>2015-01-09</td>
+                                          <td><label class="badge badge-outline-primary">C major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5k5fWendNngd89O8JKoE8L">Better When I&#39;m Dancin&#39;</a></td>
+                                          <td class=text-success>75.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Better When I&#39;m Dancin&#39;</td>
+                                          <td>2015-10-14</td>
+                                          <td><label class="badge badge-outline-warning">A minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3cU2wBxuV6nFiuf6PJZNlC">Dear Future Husband</a></td>
+                                          <td class=text-success>74.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Title (Deluxe)</td>
+                                          <td>2015-01-09</td>
+                                          <td><label class="badge badge-outline-info">D major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5jE48hhRu8E6zBDPRSkEq7">All About That Bass</a></td>
+                                          <td class=text-success>73.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Title (Deluxe)</td>
+                                          <td>2015-01-09</td>
+                                          <td><label class="badge badge-outline-warning">A major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/6gj08XDlv9Duc2fPOxUmVD">Lips Are Movin</a></td>
+                                          <td class=text-success>72.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Title (Deluxe)</td>
+                                          <td>2015-01-09</td>
+                                          <td><label class="badge badge-outline-secondary">G major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3KwwE4sgCzMaKWq6QBebmX">Me Too</a></td>
+                                          <td class=text-success>72.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Thank You (Deluxe Version)</td>
+                                          <td>2017-05-12</td>
+                                          <td><label class="badge badge-outline-info">B minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/0l0CvurVUrr2w3Jj1hOVFc">NO</a></td>
+                                          <td class=text-success>71.00%<i class="mdi mdi-arrow-up"></i></td>
+                                          <td>Thank You (Deluxe Version)</td>
+                                          <td>2017-05-12</td>
+                                          <td><label class="badge badge-outline-info">C# minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/3yuIvz5stb9v9cljhZ5Zas">If You Love Her - feat. Meghan Trainor</a></td>
+                                          <td class="text-danger">69.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>If You Love Her (feat. Meghan Trainor)</td>
+                                          <td>2021-04-09</td>
+                                          <td><label class="badge badge-outline-danger">F# Major</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/1xK7enJZVdv37fnnxoZlPq">With You</a></td>
+                                          <td class="text-danger">66.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>With You</td>
+                                          <td>2019-06-14</td>
+                                          <td><label class="badge badge-outline-primary">C# Minor</label></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="https://open.spotify.com/track/5CpkVOosLFc83LbwqO6hnI">Just Got Paid</a></td>
+                                          <td class="text-danger">63.00%<i class="mdi mdi-arrow-down"></i></td>
+                                          <td>Brighter Days</td>
+                                          <td>2018-09-28</td>
+                                          <td><label class="badge badge-outline-danger">F# Minor</label></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Syelvie -->
+                  </div>
+               </div>
+               <!-- content-wrapper ends -->
+               <!-- partial:../../partials/_footer.html -->
+               <footer class="footer">
+                  <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                     <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © Respect | 2021</span>
+                  </div>
+               </footer>
+               <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+         </div>
+         <!-- page-body-wrapper ends -->
+      </div>
+      <!-- container-scroller -->
+      <!-- plugins:js -->
+      <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+      <!-- endinject -->
+      <!-- Plugin js for this page -->
+      <!-- End plugin js for this page -->
+      <!-- inject:js -->
+      <script src="../../assets/js/off-canvas.js"></script>
+      <script src="../../assets/js/hoverable-collapse.js"></script>
+      <script src="../../assets/js/misc.js"></script>
+      <script src="../../assets/js/settings.js"></script>
+      <script src="../../assets/js/todolist.js"></script>
+      <!-- JavaScript Lev -->
+      <!-- Scripts -->
+      <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+      <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+      <script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/dataTables.buttons.min.js"></script>
+      <script type="text/javascript" src="js/jszip.min.js"></script>
+      <script type="text/javascript" src="js/buttons.html5.min.js"></script>
+      <script type="text/javascript" src="js/substable.js"></script>
+      <!-- End JavaScript Lev -->
+      <!-- endinject -->
+      <!-- Custom js for this page -->
+      <!-- End custom js for this page -->
+   </body>
+</html>
