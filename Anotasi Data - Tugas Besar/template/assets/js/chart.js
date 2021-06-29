@@ -127,7 +127,7 @@ $(function() {
   
   var doughnutPieData = {
     datasets: [{
-      data: [30, 40, 30],
+      data: [13,2,1,2,2,1],
       backgroundColor: [
         'rgba(255, 99, 132, 0.5)',
         'rgba(54, 162, 235, 0.5)',
@@ -148,9 +148,12 @@ $(function() {
 
     // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
-      'Pink',
-      'Blue',
-      'Yellow',
+      'United States',
+      'Canada',
+      'Australia',
+      'New Zealand', 
+      'Great Britain',
+      'Ireland',
     ]
   };
   var doughnutPieOptions = {
@@ -161,10 +164,10 @@ $(function() {
     }
   };
   var areaData = {
-    labels: ["Post-teen Pop", "Canadian Pop", "Australian Pop", "Electro Pop", "Dance Pop", "Rock Pop"],
+    labels: ["Classic","Pop","Rock","R&B","Jazz","Hip hop","Metal","Indie","Comedy","Reggae"],
     datasets: [{
       label: '# Genre',
-      data: [12, 11, 8, 5, 19, 9],
+      data: [77,161,40,12,5,51,1,6,1,1],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
         'rgba(54, 162, 235, 0.2)',
