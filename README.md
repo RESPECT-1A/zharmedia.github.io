@@ -4,9 +4,6 @@ Tugas Proyek 1: Proyek Pengembangan Perangkat Lunak Aplikasi/Aplikasi Perkantora
 ### Language
 HTML, CSS, Javascript
 
-### Credit
-Thanks for all contributor. Especially for the lecturer who has guided us for making this project
-
 ### Contributor
 - [Muhammad Azhar Alauddin](https://github.com/zharmedia386) - 201524013
 - [Rifatia Yumna Salma](https://github.com/rifatiyay) - 201524024
@@ -16,3 +13,6 @@ Thanks for all contributor. Especially for the lecturer who has guided us for ma
 
 ### Final Result
 https://respect-1a.github.io/zharmedia.github.io/
+
+### Template
+Bootstrap Dash
